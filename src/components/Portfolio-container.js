@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState } from "react";
 import About from "./About";
 import Contact from "./Contact";
 import Resume from "./Resume";
@@ -20,8 +20,8 @@ export default function PortfolioContainer() {
       return <Work />;
     }
     if (currentPage === "Contact") {
-        return <Contact />;
-      }
+      return <Contact />;
+    }
   };
 
   const handlePageChange = (page) => setCurrentPage(page);
@@ -30,7 +30,6 @@ export default function PortfolioContainer() {
     <div>
       {/* // handlePageChange fxns as a way to change the current page state variable */}
       <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} />
-      {/* // stuff gets rendered */}
       {renderPage()}
     </div>
   );
