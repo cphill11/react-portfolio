@@ -1,10 +1,12 @@
 import React from 'react';
+// make sure to define the src for the image at top of page
+import professionalImage from '../../assets/images/professional-image.jpg'
 
 function About () {
     return (
         <section className="my-5">
             <h1 id="about">About Me</h1>
-            {/* <img src={coverImage} className="my-2" style={{ width: "100%" }} alt="cover" /> */}
+            <img src={professionalImage} className="my-2" style={{ width: "25%" }} alt="cover" />
       <div className="my-2">
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec bibendum turpis sed ex
