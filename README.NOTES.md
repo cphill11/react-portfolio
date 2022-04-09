@@ -1,5 +1,7 @@
-GIVEN a single-page application portfolio for a web developer
 
+Single-page application portfolio for a web developer
+
+To-Do:
 Loading portfolio yields a page containing a header, a section for content, and a footer
 
 Viewing the header presents the developer's name and navigation with titles corresponding to different sections of the portfolio.

@@ -1,3 +1,5 @@
+// bar that we see; operates w/ in header that will conditionally render different sections of the portfolio
+
 import React, { useEffect } from 'react';
 import { capitalizeFirstLetter } from '../utils/helpers';
 

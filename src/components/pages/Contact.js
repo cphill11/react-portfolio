@@ -1,4 +1,6 @@
+// import React, { useState } from 'react';
 import React from 'react';
+// import CSS
 
 function Contact () {
     return (
@@ -8,6 +10,8 @@ function Contact () {
         <div className="my-2">
           <p>Placeholder text for my contact info.</p>
         </div>
+        
+        
         </section>
     );
 }
