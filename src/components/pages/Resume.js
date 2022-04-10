@@ -6,7 +6,11 @@ function Resume() {
       <h1 id="resume">Resume</h1>
       {/* <img src={coverImage} className="my-2" style={{ width: "100%" }} alt="cover" /> */}
       <div className="my-2">
-        <p>Placeholder text for my resume.</p>
+        <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+        </ul>
       </div>
     </section>
   );

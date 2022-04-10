@@ -48,7 +48,7 @@ body {
   letter-spacing: 0.1em;
   background: var(--tertiary);
   color: var(--darker);
-  font-family: 'Poiret One', cursive;
+  font-family: 'Montserrat', cursive;
 }
 
 h1,
@@ -66,6 +66,7 @@ h6 {
 h1 {
   font-size: 2.25rem;
   font-style: bold;
+  padding: 25px;
 }
 
 h2 {
@@ -92,6 +93,7 @@ h6 {
 p {
   font-size: 1.5rem;
   margin-top: 0;
+  padding: 25px;
 }
 
 a {
@@ -178,6 +180,9 @@ textarea {
   border: 3px solid #cccccc;
   padding: 5px;
 }
+
+
+
 
 .container {
   width: 85%;
