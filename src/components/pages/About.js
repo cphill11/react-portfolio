@@ -23,3 +23,5 @@ function About () {
 }
 
 export default About; 
+
+// Include a recent photo or avatar of the developer and a short bio about them.

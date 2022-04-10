@@ -10,7 +10,7 @@ Viewing the navigation titles presents the user with the titles About Me, Portfo
 
 Clicking on a navigation title presents the user with the corresponding section below the navigation without the page reloading and that title is highlighted.
 
-Loadin the portfolio the first time displays the About Me title and section are selected by default.
+Loading the portfolio the first time displays the About Me title and section are selected by default.
 
 Presenting the About Me section displays a recent photo or avatar of the developer and a short bio about them.
 
