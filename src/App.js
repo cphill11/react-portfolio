@@ -4,12 +4,18 @@
 
 import React from "react";
 // PortfolioContainer has all the page imports listed there; this minimizes the load on App.js; useful pattern to replicate when working w/ multiple devs
-import PortfolioContainer from "./components/Portfolio-container";
+import Nav from './components/Nav';
+import About from './components/About';
 
-// can import images & CSS here as well
-import './App.css';
-
-
-const App = () => <PortfolioContainer />;
+function App() {
+  return (
+    <div>
+      <Nav />
+      <main>
+        <About />
+      </main>
+    </div>
+  );
+}
 
 export default App;
