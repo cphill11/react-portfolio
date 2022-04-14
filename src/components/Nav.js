@@ -1,26 +1,20 @@
 // bar that we see; operates w/ in header that will conditionally render different sections of the portfolio
 // useState hook gives the option to change categories in future
-import React, { useState } from "react";
+import React from "react";
 
 import { capitalizeFirstLetter } from "../utils/helpers";
 
-function Nav() {
-  const [categories] = useState([
-    // {
-    //   name: "Resume",
-    //   description: "Listing of skillsets useful for employment opportunities",
-    // },
-    // {
-    //   name: "Portfolio",
-    //   description: "Challenges and Projects completed during coding bootcamp",
-    // },
-  ]);
+function Nav(props) {
+  const {
+    categories = [],
+    setCurrentCategory,
+    currentCategory,
+  } = props;
 
   const handleClick = () => {
     console.log("click handled");
   };
 
-  const [currentCategory, setCurrentCategory] = useState(categories[0]);
   return (
     <header data-testid="header" className="flex-row px-1">
       <h2>{/* <a href="/"></a> */}</h2>
