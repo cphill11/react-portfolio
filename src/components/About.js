@@ -1,11 +1,17 @@
 import React from 'react';
-// make sure to define the src for the image at top of page
-import professionalImage from '../../assets/images/professional-image.jpg'
+// define the src for the image at top of page
+import professionalImage from '../assets/images/professional-image.jpg';
+// is this CSS needed (?)
+import '../../src/App.css';
 
 function About () {
+  // JSX being returned to represent HTML in JS
     return (
+      // class my-5 = (m) margin (y) top & bottom - (5) $spacer-y * 3
         <section className="my-5">
             <h1 id="about">About Me</h1>
+
+            {/* Include a recent photo or avatar of the developer (done) and a short bio about them. */}
             <img src={professionalImage} className="my-2" style={{ width: "25%" }} alt="blonde woman in suit jacket" />
       <div className="my-2">
         <p>
@@ -17,5 +23,3 @@ function About () {
 }
 
 export default About; 
-
-// Include a recent photo or avatar of the developer (done) and a short bio about them.
