@@ -16,7 +16,6 @@ function Portfolio() {
 
 export default Portfolio;
 
-// Is this section the same as Project.js (???)
 
 // Display titled images of 6 of the developer's applications with links to both the deployed applications and the corresponding GitHub repository.
 

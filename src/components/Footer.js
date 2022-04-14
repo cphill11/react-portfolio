@@ -3,7 +3,7 @@
 import React from "react";
 
 function Footer() {
-  return <section>Footer</section>;
+  return <section>INSERT LINKS and format to be pretty</section>;
 }
 
 export default Footer;

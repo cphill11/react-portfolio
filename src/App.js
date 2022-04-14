@@ -6,6 +6,7 @@ import React from "react";
 // PortfolioContainer has all the page imports listed there; this minimizes the load on App.js; useful pattern to replicate when working w/ multiple devs
 import Nav from './components/Nav';
 import About from './components/About';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Nav />
       <main>
         <About />
+        <Footer />
       </main>
     </div>
   );

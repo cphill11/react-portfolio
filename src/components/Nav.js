@@ -6,14 +6,14 @@ import { capitalizeFirstLetter } from "../utils/helpers";
 
 function Nav() {
   const categories = [
-    {
-      name: "Resume",
-      description: "Listing of skillsets useful for employment opportunities",
-    },
-    {
-      name: "Portfolio",
-      description: "Challenges and Projects completed during coding bootcamp",
-    },
+    // {
+    //   name: "Resume",
+    //   description: "Listing of skillsets useful for employment opportunities",
+    // },
+    // {
+    //   name: "Portfolio",
+    //   description: "Challenges and Projects completed during coding bootcamp",
+    // },
   ];
 
   const handleClick = () => {
@@ -30,8 +30,20 @@ function Nav() {
             </a>
           </li>
           <li className={"mx-2"}>
-            <span onClick={() => handleClick()}>Contact</span>
+            <a href="#contact" onClick={() => handleClick()}>Contact</a>
           </li>
+          <li className={"mx-2"}>
+            <a href="#resume" onClick={() => handleClick()}>Resume</a>
+          </li>
+          <li className={"mx-2"}>
+            <a href="#Porfolio" onClick={() => handleClick()}>Portfolio</a>
+          </li>
+
+
+
+
+
+
           {
             categories.map((category) => (
               <li className="mx-1" key={category.name} >
