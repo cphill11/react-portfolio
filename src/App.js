@@ -14,6 +14,7 @@ function App() {
       <Nav />
       <main>
         <About />
+      
         <Footer />
       </main>
     </div>
