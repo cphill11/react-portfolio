@@ -1,6 +1,6 @@
 // bar that we see; operates w/ in header that will conditionally render different sections of the portfolio
 // useState hook gives the option to change categories in future
-import React from "react";
+import React, { useEffect } from "react";
 
 import { capitalizeFirstLetter } from "../utils/helpers";
 
@@ -9,34 +9,36 @@ function Nav(props) {
     categories = [],
     setCurrentCategory,
     currentCategory,
+    setContactSelected,
   } = props;
 
-  const handleClick = () => {
-    console.log("click handled");
-  };
+  useEffect(() => {
+    document.title = capitalizeFirstLetter(currentCategory.name);
+  }, [currentCategory]);
 
+  
   return (
     <header data-testid="header" className="flex-row px-1">
       <h2>{/* <a href="/"></a> */}</h2>
       <nav>
         <ul className="flex-row">
           <li className="mx-2">
-            <a href="#about" onClick={() => handleClick()}>
-              About me
+            <a href="#about" onClick={() => setContactSelected(false)}>
+              About
             </a>
           </li>
           <li className={"mx-2"}>
-            <a href="#contact" onClick={() => handleClick()}>
+            <a href="#contact" onClick={() => setContactSelected(true)}>
               Contact
             </a>
           </li>
           <li className={"mx-2"}>
-            <a href="#resume" onClick={() => handleClick()}>
+            <a href="#resume" onClick={() => setContactSelected(false)}>
               Resume
             </a>
           </li>
           <li className={"mx-2"}>
-            <a href="#Porfolio" onClick={() => handleClick()}>
+            <a href="#Porfolio" onClick={() => setContactSelected(false)}>
               Portfolio
             </a>
           </li>

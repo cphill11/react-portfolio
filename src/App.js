@@ -2,44 +2,41 @@
 
 // to effect change on the application, we need to either modify this file or add components inside of it
 
-import React, { useState } from "react";
+import React from "react";
 // PortfolioContainer has all the page imports listed there; this minimizes the load on App.js; useful pattern to replicate when working w/ multiple devs
 import Nav from "./components/Nav";
 import About from "./components/About";
 import Footer from "./components/Footer";
 import ContactForm from "./components/Contact";
 
-function App() {
-  const [categories] = useState([
-    {
-      name: "Resume",
-      description: "Listing of skillsets useful for employment opportunities",
-    },
-    {
-      name: "Portfolio",
-      description: "Challenges and Projects completed during coding bootcamp",
-    },
-  ]);
 
-  const [currentCategory, setCurrentCategory] = useState(categories[0]);
-  const [contactSelected, setContactSelected] = useState(false);
+function App() {
+  // const [categories] = useState([
+  //   // {
+  //   //   name: "Resume",
+  //   //   description: "Listing of skillsets useful for employment opportunities",
+  //   // },
+  //   // {
+  //   //   name: "Portfolio",
+  //   //   description: "Challenges and Projects completed during coding bootcamp",
+  //   // },
+  // ]);
+
+
   return (
     <div>
-      <Nav
-         categories={categories}
-         setCurrentCategory={setCurrentCategory}
-         currentCategory={currentCategory}
-         contactSelected={contactSelected}
-         setContactSelected={setContactSelected}
-      />
+      <Nav>
+
+      </Nav>
       <main>
-        {!contactSelected ? (
+  
           <>
             <About></About>
+
           </>
         ) : (
-            <ContactForm />
-          )}
+          <ContactForm></ContactForm>
+          )
         <Footer />
       </main>
     </div>
