@@ -11,7 +11,7 @@ function About () {
         <section className="my-5">
             <h1 id="about">About Me</h1>
 
-            {/* Include a recent photo or avatar of the developer (done) and a short bio about them. */}
+            {/* Recent photo and short bio */}
             <img src={professionalImage} className="my-2" style={{ width: "25%" }} alt="blonde woman in suit jacket" />
       <div className="my-2">
         <p>
