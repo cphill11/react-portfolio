@@ -12,27 +12,28 @@ function Portfolio() {
   return (
     <section className="my-5">
       <h1 id="portfolio">Portfolio Display</h1>
-      <div>
-        <Project title="Comics and Cocktails" image={comicImg} />
-      </div>
-      <div>
-        <Project title="Team Profile Generator" image={teamImg} />
-      </div>
-      <div>
-        <Project title="README Generator" image={readImg} />
-      </div>
-      <div>
-        <Project title="Note Taker" image={noteImg} />
-      </div>
-      <div>
-        <Project title="Employee Tracker" image={empImg} />
-      </div>
-      <div>
-        <Project title="Fetch" image={fetchImg} />
-      </div>
-      <div>
-        <Project title="Social Network" image={socialImg} />
-      </div>
+  
+        {/* Interative Front-End Group Project */}
+        <Project title="Comics and Cocktails" image={comicImg} href="https://github.com/cphill11/comics-and-cocktails.git"/>
+
+        {/* Object-Oriented Programming Challenge */}
+        <Project title="Team Profile Generator" image={teamImg} href="https://github.com/cphill11/team-profile-generator.git"/>
+
+        {/* Node.js Challenge */}
+        <Project title="README Generator" image={readImg} href="https://github.com/cphill11/readme-generator.git"/>
+   
+        {/* Express.js Challenge: Note Taker */}
+        <Project title="Note Taker" image={noteImg} href="https://github.com/cphill11/note-taker.git"/>
+
+        {/* SQL Challenge */}
+        <Project title="Employee Tracker" image={empImg} href="https://github.com/cphill11/employee-tracker.git"/>
+
+        {/* Interactive Full-Stack Group Project */}
+        <Project title="Fetch" image={fetchImg} href="https://github.com/cphill11/fetching.git"/>
+
+        {/* NoSQL Social Network API */}
+        <Project title="Social Network" image={socialImg} href="https://github.com/cphill11/social-network.git"/>
+
     </section>
   );
 }

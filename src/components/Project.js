@@ -4,8 +4,8 @@ const Project = (props) => {
   return (
       <>
     <div>{props.title}</div>
-    <img src={props.image} alt=""></img>
-    {/* <a href={props.href} ></a> */}
+    {/* <img src={props.image} alt=""></img> */}
+    <a href={props.href} > <img src={props.image} alt=""></img></a>
     </>
   )
 }
