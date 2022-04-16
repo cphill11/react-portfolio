@@ -1,18 +1,16 @@
-// appears on all pages.
-
 import React from "react";
 
 function Footer() {
   return (
     <section className="my-5">
       <li>
-        <a href="https://www.linkedin.com/in/cristephillips/" class="linkedIn">
+        <a href="https://www.linkedin.com/in/cristephillips/" className="linkedIn">
           linkedIn
         </a>
       </li>
       <br></br>
       <li>
-        <a href="https://github.com/cphill11" class="gitHub">
+        <a href="https://github.com/cphill11" className="gitHub">
           GitHub
         </a>
       </li>
@@ -20,7 +18,7 @@ function Footer() {
       <li>
         <a
           href="https://stackoverflow.com/users/17097977/criste-phillips"
-          class="stackOverflow">
+          className="stackOverflow">
           Stack Overflow
         </a>
       </li>
