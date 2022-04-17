@@ -5,7 +5,7 @@ const Project = (props) => {
       <>
     <div>{props.title}</div>
     {/* <img src={props.image} alt=""></img> */}
-    <a href={props.href} > <img src={props.image} alt=""></img></a>
+    <a href={props.href} > <img src={props.image} class="projects" alt=""></img></a>
     </>
   )
 }
