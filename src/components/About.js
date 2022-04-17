@@ -1,8 +1,6 @@
 import React from 'react';
 // define the src for the image at top of page
 import professionalImage from '../assets/images/professional-image.jpg';
-// is this CSS needed (?)
-import '../../src/App.css';
 
 function About () {
   // JSX being returned to represent HTML in JS
