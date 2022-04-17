@@ -1,8 +1,8 @@
-Single-page application portfolio for a web developer
+# Professional React-based SPA Digital Portfolio
 
-Loading portfolio yields a page containing a header, a section for content, and a footer
+## Description
 
-Viewing the header presents the developer's name and navigation with titles corresponding to different sections of the portfolio.
+Loading portfolio shows the user a page containing a header, a content section, and a footer.  Viewing the header presents the developer's name and navigation with titles corresponding to different sections of the portfolio.
 
 Viewing the navigation titles presents the user with the titles About Me, Portfolio, Contact, and Resume, and the title corresponding to the current section is highlighted.
 
@@ -24,15 +24,21 @@ Presenting the Resume section displays a link to a downloadable resume and a lis
 
 Viewing the footer displays text or icon links to the developer’s GitHub and LinkedIn profiles, and their profile on a third platform (Stack Overflow, Twitter) 
 
+## Installation
+* bootstrap
+* npx react
+* 
 
-## Website
-https://cphill11.github.io/readme-generator/
+## Links
+GitHub Repo:
 
-Screencastify link: https://watch.screencastify.com/v/VhVZlVpDkbl2nnwgSp4r
+Heroku Link: 
+
+
 
 ## Image
 
-![Screenshot](/assets/images/screenshot.png)
+![Screenshot](/src/assets/images/screenshot.png)
 
 ## Credits:
 
