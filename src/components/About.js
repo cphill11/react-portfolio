@@ -10,7 +10,7 @@ function About () {
             <h1 id="about">About Me</h1>
 
             {/* Recent photo and short bio */}
-            <img src={professionalImage} className="my-2" style={{ width: "25%" }} alt="blonde woman in suit jacket" />
+            <img class="photo" src={professionalImage} className="photo" style={{ width: "25" }} alt="blonde woman in suit jacket" />
       <div className="my-2">
         <p>
           Junior Developer seeking technical experience after completion of Case Western Reserve University's Full Stack Web Development program.  Prior work experience primarily in healthcare within acute care facilities.  Currently residing in the Cleveland area and working with Phillips Technology Group as General Office Manager.  

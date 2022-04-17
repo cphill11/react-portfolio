@@ -23,3 +23,26 @@ Entering text into the email address field triggers a notification if I have ent
 Presenting the Resume section displays a link to a downloadable resume and a list of the developer’s proficiencies.
 
 Viewing the footer displays text or icon links to the developer’s GitHub and LinkedIn profiles, and their profile on a third platform (Stack Overflow, Twitter) 
+
+
+## Website
+https://cphill11.github.io/readme-generator/
+
+Screencastify link: https://watch.screencastify.com/v/VhVZlVpDkbl2nnwgSp4r
+
+## Image
+
+![Screenshot](/assets/images/screenshot.png)
+
+## Credits:
+
+Criste Phillips 
+
+## License
+MIT
+
+## Badges
+![badmath](https://img.shields.io/github/languages/top/nielsenjared/badmath)
+
+## Contributing
+Sticky paws off unless checking with original creator first.  No exceptions.
