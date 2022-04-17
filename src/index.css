@@ -144,8 +144,20 @@ button[disabled] {
 
 #about, #resume, #contact, #portfolio {
   background-color: #cdc2c2;
-  
+  background-position-x: 100%; 
 }
+
+#contact-form {
+  margin: 0;
+}
+#summary {
+  height: 375px;
+}
+
+#skillset {
+  height: 600px;
+}
+
 .photo {
   height: 300px;
 
@@ -173,16 +185,14 @@ img {
   box-shadow:         7px 7px 5px 0px rgba(50, 50, 50, 0.75);
 }
 
-.row {
- display: flex;
- flex-direction: row;
-}
+
 span[role="img"] {
   cursor: default;
 }
 
 form {
-  width: 40%;
+  width: 80%;
+  height: 650px;
   justify-content: center;
   padding: 50px;
   margin: 25px 0 25px;
@@ -229,6 +239,10 @@ footer {
   align-items: center;
   padding: 0.5rem;
   text-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+  position: fixed;
+  width: 100%;
+  margin: 0 0 0 0;
+  height: 200px;  
 }
 
 footer section {
@@ -256,6 +270,10 @@ footer li a {
 .flex-row {
   display: flex;
   flex-wrap: wrap;
+}
+
+.fields {
+  padding-bottom: 25px;
 }
 
 .space-between {

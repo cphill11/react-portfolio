@@ -5,17 +5,16 @@ import pdf from "../assets/small/resume.pdf";
 
 function Resume() {
   return (
-    <section className="my-5" class="container">
+    <section className="my-5">
       <h1 id="resume">Resume</h1>
-      {/* <img src={coverImage} className="my-2" style={{ width: "100%" }} alt="cover" /> */}
-      <div className="my-2" class="row">
+      <div className="my-5" id="skillset">
         <ul>
-          <li class="col">HTML / CSS / JavaScript</li>
-          <li class="col">Git</li>
-          <li class="col">Bootstrap</li>
-          <li class="col">MERN Stack</li>
-          <li class="col">SQL / NoSQL</li>
-          <li class="col">Group Projects: Front-End and Full Stack</li>
+          <li>HTML / CSS / JavaScript</li>
+          <li>Git</li>
+          <li>Bootstrap</li>
+          <li>MERN Stack</li>
+          <li>SQL / NoSQL</li>
+          <li>Group Projects: Front-End and Full Stack</li>
         </ul>
       </div>
       <div>
