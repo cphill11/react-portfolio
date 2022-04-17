@@ -2,6 +2,7 @@ import React from "react";
 
 function Footer() {
   return (
+    <footer>
     <section className="my-5">
       <li>
         <a href="https://www.linkedin.com/in/cristephillips/" className="linkedIn">
@@ -23,6 +24,7 @@ function Footer() {
         </a>
       </li>
     </section>
+    </footer>
   );
 }
 

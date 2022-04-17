@@ -1,13 +1,16 @@
 // appears on multiple pages
-// name, optional image, navigation
 import React from "react";
+import nzImg from "../assets/images/nz.jpg";
 
-function Header() {
+function Header(props) {
   return (
-    <section className="my-5">
-    Criste Phillips
-    </section>
+    <header className="my-5">
+      < img src={nzImg} alt=""/>
+      <h2> Criste Phillips</h2>
+
+    </header>
   );
 }
+
 
 export default Header;
