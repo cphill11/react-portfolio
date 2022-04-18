@@ -12,7 +12,7 @@ function Portfolio() {
   return (
     <section className="my-5" class="container-fluid">
       <h1 id="portfolio" class="row">
-        Portfolio Display
+        Portfolio Display: Click on Image for link to Repository
       </h1>
       <div class="container">
         <div class="row">

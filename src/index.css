@@ -92,6 +92,7 @@ a {
 
 a:hover {
   text-decoration: underline;
+  color: rgb(128, 174, 223);
 }
 
 header {
@@ -143,6 +144,8 @@ button[disabled] {
 }
 
 #about, #resume, #contact, #portfolio {
+  text-align: left;
+  padding-left: 65px;
   background-color: #cdc2c2;
   background-position-x: 100%; 
 }
@@ -157,9 +160,27 @@ button[disabled] {
 #skillset {
   height: 600px;
 }
+#skillset ul li {
+  padding: 10px;
+  font-size: 30px;
+  color: #676363;
+  text-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+}
+
+#pdf {
+  font-size: 30px;
+  color: #302e2e;
+  text-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+}
+
+#pdf:hover {
+  text-decoration: underline;
+  color: rgb(57, 109, 165);
+}
 
 .photo {
   height: 300px;
+  margin-left: 50px;
 
 }
 img {

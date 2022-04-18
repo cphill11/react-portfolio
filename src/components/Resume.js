@@ -18,7 +18,7 @@ function Resume() {
         </ul>
       </div>
       <div>
-        <a href={pdf} className="my-4" target="_blank" rel="noreferrer">
+        <a href={pdf} id="pdf" className="my-4" target="_blank" rel="noreferrer">
           Resume Downloadable as PDF
         </a>
       </div>

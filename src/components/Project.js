@@ -5,7 +5,7 @@ const Project = (props) => {
       <>
     <div>{props.title}</div>
     {/* <img src={props.image} alt=""></img> */}
-    <a href={props.href} > <img src={props.image} class="projects" alt=""></img></a>
+    <a href={props.href}><img src={props.image} class="projects" alt=""></img></a>
     </>
   )
 }
@@ -26,19 +26,13 @@ export default Project
 // 3  Object-Oriented Programming Challenge: Team Profile Generator (M10)
         // Title: Team Profile Generator
         // GitHub Repo: https://github.com/cphill11/team-profile-generator.git
-        // Screencastify link: https://watch.screencastify.com/v/uRXPsHu7ADH433kBH6pT
 
 // 4  Express.js Challenge: Note Taker (M11)
         // Title: Note Taker
         // GitHub Repo: https://github.com/cphill11/note-taker.git
         // Heroku Link: https://intense-eyrie-70687.herokuapp.com/
 
-// 5  SQL Challenge: Employee Tracker (M12)
-        // Title: Employee Tracker
-        // GitHub Repo: https://github.com/cphill11/employee-tracker.git
-        // Sceencastify Link: https://drive.google.com/file/d/1SY0HslbB1ZDxtMdc_XAlGYdc4vmDv-Qp/view
-
-// 5 alternate Interactive Full-Stack Project (M16 Group Project)
+// 5 Interactive Full-Stack Project (M16 Group Project)
         // Title: Fetch
         // GitHub Repo: https://github.com/cphill11/fetching.git
         // Heroku link: https://intense-crag-43217.herokuapp.com/
@@ -46,4 +40,3 @@ export default Project
 // 6  NoSQL Challenge: Social Network API  (M18)
         // Title: Social Network
         // GitHub Repo: https://github.com/cphill11/social-network.git
-        // Sceencastify Link:: https://drive.google.com/file/d/13Uru265ko2wr6lN3sOSLv3wlVoAbHV5E/view
