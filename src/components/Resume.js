@@ -1,8 +1,6 @@
 import React from "react";
 import pdf from "../assets/small/resume.pdf";
 
-// "./resume.pdf";
-
 function Resume() {
   return (
     <section className="my-5">
@@ -18,7 +16,13 @@ function Resume() {
         </ul>
       </div>
       <div>
-        <a href={pdf} id="pdf" className="my-4" target="_blank" rel="noreferrer">
+        <a
+          href={pdf}
+          id="pdf"
+          className="my-4"
+          target="_blank"
+          rel="noreferrer"
+        >
           Resume Downloadable as PDF
         </a>
       </div>

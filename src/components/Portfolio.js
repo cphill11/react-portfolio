@@ -54,11 +54,11 @@ function Portfolio() {
 
           <div class="col-6-md-auto">
             {/* Interactive Full-Stack Group Project */}
-            <Project 
+            <Project
               title="Fetch"
               image={fetchImg}
-              href="https://github.com/cphill11/fetching.git" 
-              />
+              href="https://github.com/cphill11/fetching.git"
+            />
           </div>
 
           <div class="col-6-md-auto">
@@ -70,7 +70,7 @@ function Portfolio() {
             />
           </div>
         </div>
-       <Footer />
+        <Footer />
       </div>
     </section>
   );

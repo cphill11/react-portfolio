@@ -143,11 +143,14 @@ button[disabled] {
   opacity: 0.8;
 }
 
-#about, #resume, #contact, #portfolio {
+#about,
+#resume,
+#contact,
+#portfolio {
   text-align: left;
   padding-left: 65px;
   background-color: #cdc2c2;
-  background-position-x: 100%; 
+  background-position-x: 100%;
 }
 
 #contact-form {
@@ -181,7 +184,6 @@ button[disabled] {
 .photo {
   height: 300px;
   margin-left: 50px;
-
 }
 img {
   justify-content: center;
@@ -200,12 +202,11 @@ img {
   padding: 10px;
   border: 1px solid;
   border-color: var(--secondary-color);
-  border-radius: 15px;  
+  border-radius: 15px;
   -webkit-box-shadow: 7px 7px 5px 0px rgba(50, 50, 50, 0.75);
-  -moz-box-shadow:    7px 7px 5px 0px rgba(50, 50, 50, 0.75);
-  box-shadow:         7px 7px 5px 0px rgba(50, 50, 50, 0.75);
+  -moz-box-shadow: 7px 7px 5px 0px rgba(50, 50, 50, 0.75);
+  box-shadow: 7px 7px 5px 0px rgba(50, 50, 50, 0.75);
 }
-
 
 span[role="img"] {
   cursor: default;
@@ -264,7 +265,7 @@ footer {
   position: absolute;
   width: 100%;
   margin: 0 0 0 0;
-  height: 200px;  
+  height: 200px;
 }
 
 footer section {
@@ -282,12 +283,10 @@ footer li a {
   padding: 12px;
 }
 
-
 .container {
   width: 85%;
   max-width: 1200px;
 }
-
 
 .flex-row {
   display: flex;

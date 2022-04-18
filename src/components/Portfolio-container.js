@@ -7,7 +7,6 @@ import NavTabs from "./NavTabs";
 import Footer from "./Footer";
 import Header from "./Header";
 
-
 export default function PortfolioContainer() {
   const [currentPage, setCurrentPage] = useState("About");
 
@@ -31,12 +30,11 @@ export default function PortfolioContainer() {
 
   return (
     <div>
-      <Header/>
+      <Header />
       {/* // handlePageChange fxns as a way to change the current page state variable */}
       <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} />
       {renderPage()}
       <Footer />
     </div>
-     
   );
 }

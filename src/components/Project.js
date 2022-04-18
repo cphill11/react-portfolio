@@ -1,23 +1,24 @@
-import React from 'react'
+import React from "react";
 
 const Project = (props) => {
   return (
-      <>
-    <div>{props.title}</div>
-    {/* <img src={props.image} alt=""></img> */}
-    <a href={props.href}><img src={props.image} class="projects" alt=""></img></a>
+    <>
+      <div>{props.title}</div>
+      {/* <img src={props.image} alt=""></img> */}
+      <a href={props.href}>
+        <img src={props.image} class="projects" alt=""></img>
+      </a>
     </>
-  )
-}
+  );
+};
 
-export default Project
+export default Project;
 
 // 6 projects
 
-// 1 Interactive Front-End Project (M8 Group Project)   
+// 1 Interactive Front-End Project (M8 Group Project)
         // Title: Comics and Cocktails
         // GitHub Repo: https://github.com/cphill11/comics-and-cocktails.git
-
 
 // 2  Node.js Challenge: Professional README Generator (M9)
         // Title: README Generator

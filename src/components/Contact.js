@@ -60,9 +60,3 @@ function ContactForm() {
 }
 
 export default ContactForm;
-
-// Include a contact form with fields for a name, an email address, and a message.
-
-  // Moving the cursor out of one of the form fields without entering text triggers a notification that this field is required.
-
-  // Entering text into the email address field triggers a notification if I have entered an invalid email address.
