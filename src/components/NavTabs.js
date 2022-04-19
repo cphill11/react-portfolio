@@ -1,15 +1,14 @@
 import React from "react";
-import '../index.css';
-import '../media-queries.css';
+import "../index.css";
+import "../media-queries.css";
 
 function NavTabs({ currentPage, handlePageChange }) {
   return (
     <header>
-      <ul className="nav nav-tabs" class="container">
-        <li className="nav-item" class="row">
+      <ul className="nav nav-tabs">
+        <li className="nav-item">
           <a
             href="#about"
-            class="col-2 col-3-sm"
             onClick={() => handlePageChange("About")}
             className={currentPage === "About" ? "nav-link active" : "nav-link"}
           >
@@ -19,9 +18,10 @@ function NavTabs({ currentPage, handlePageChange }) {
         <li className="nav-item">
           <a
             href="#resume"
-            class="col-2 col-3-sm"
             onClick={() => handlePageChange("Resume")}
-            className={currentPage === "About" ? "nav-link active" : "nav-link"}
+            className={
+              currentPage === "Resume" ? "nav-link active" : "nav-link"
+            }
           >
             Resume
           </a>
@@ -29,7 +29,6 @@ function NavTabs({ currentPage, handlePageChange }) {
         <li className="nav-item">
           <a
             href="#portfolio"
-            class="col-2 col-3-sm"
             onClick={() => handlePageChange("Portfolio")}
             className={
               currentPage === "Portfolio" ? "nav-link active" : "nav-link"
@@ -41,7 +40,6 @@ function NavTabs({ currentPage, handlePageChange }) {
         <li className="nav-item">
           <a
             href="#contact"
-            class="col-2 col-3-sm"
             onClick={() => handlePageChange("Contact")}
             className={
               currentPage === "Contact" ? "nav-link active" : "nav-link"

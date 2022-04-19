@@ -14,7 +14,9 @@ function Portfolio(props) {
       <h1 id="portfolio">
         Portfolio Display: Click on Image for link to Repository
       </h1>
-      <div className="SplitPane"> {props.left}
+      <div className="SplitPane">
+        {" "}
+        {props.left}
         <div className="SplitPane-Left">
           {/* Interative Front-End Group Project */}
           <Project
@@ -37,8 +39,9 @@ function Portfolio(props) {
             href="https://github.com/cphill11/readme-generator.git"
           />
         </div>
-
-        <div className="SplitPane-Right"> {props.right}
+        <div className="SplitPane-Right">
+          {" "}
+          {props.right}
           {/* Express.js Challenge: Note Taker */}
           <Project
             title="Note Taker"

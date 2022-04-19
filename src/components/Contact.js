@@ -35,13 +35,13 @@ function ContactForm() {
   };
   return (
     <section>
-      <h1 id="contact">Contact me</h1>
+      <h1 id="contact">Contact Me</h1>
       <form id="contact-form" onSubmit={handleSubmit}>
-        <div class="fields">
+        <div className="fields">
           <label htmlFor="name">Name:  </label>
           <input type="text" name="name" defaultValue={name} onBlur={handleChange} />
         </div>
-        <div class="fields">
+        <div className="fields">
           <label htmlFor="email">Email address:  </label>
           <input type="email" name="email" defaultValue={email} onBlur={handleChange} />
         </div>

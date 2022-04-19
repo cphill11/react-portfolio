@@ -6,9 +6,8 @@ const Project = (props) => {
   return (
     <>
       <div>{props.title}</div>
-      {/* <img src={props.image} alt=""></img> */}
       <a href={props.href}>
-        <img src={props.image} class="projects" alt=""></img>
+        <img src={props.image} className="projects" alt=""></img>
       </a>
     </>
   );

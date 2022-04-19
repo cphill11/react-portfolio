@@ -1,8 +1,8 @@
 import React from "react";
 // define the src for the image at top of page
 import professionalImage from "../assets/images/professional-image.jpg";
-import '../index.css';
-import '../media-queries.css';
+import "../index.css";
+import "../media-queries.css";
 
 function About() {
   // JSX being returned to represent HTML in JS
@@ -13,7 +13,6 @@ function About() {
 
       {/* Recent photo and short bio */}
       <img
-        class="photo"
         src={professionalImage}
         className="photo"
         style={{ width: "25" }}
