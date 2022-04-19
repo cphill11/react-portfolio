@@ -208,6 +208,28 @@ img {
   box-shadow: 7px 7px 5px 0px rgba(50, 50, 50, 0.75);
 }
 
+.SplitPane {
+  height: 800px;
+  padding: 10px;
+}
+
+.SplitPane img {
+  height: 195px;
+  width: 350px;
+}
+.SplitPane-Left {
+  float: left;
+  width: 50%;
+  text-align: center;
+}
+
+.SplitPane-Right {
+  /* justify-content: right; */
+  float: right;
+  width: 50%;
+  text-align: center;
+}
+
 span[role="img"] {
   cursor: default;
 }

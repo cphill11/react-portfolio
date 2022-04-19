@@ -8,70 +8,58 @@ import fetchImg from "../assets/images/fetch.jpg";
 import socialImg from "../assets/images/social-network.jpg";
 import Footer from "./Footer";
 
-function Portfolio() {
+function Portfolio(props) {
   return (
-    <section className="my-5" class="container-fluid">
-      <h1 id="portfolio" class="row">
+    <section className="my-5">
+      <h1 id="portfolio">
         Portfolio Display: Click on Image for link to Repository
       </h1>
-      <div class="container">
-        <div class="row">
-          <div class="col-6-md-auto">
-            {/* Interative Front-End Group Project */}
-            <Project
-              title="Comics and Cocktails"
-              image={comicImg}
-              href="https://github.com/cphill11/comics-and-cocktails.git"
-            />
-          </div>
+      <div className="SplitPane"> {props.left}
+        <div className="SplitPane-Left">
+          {/* Interative Front-End Group Project */}
+          <Project
+            title="Comics and Cocktails"
+            image={comicImg}
+            href="https://github.com/cphill11/comics-and-cocktails.git"
+          />
 
-          <div class="col-6-md-auto">
-            {/* Object-Oriented Programming Challenge */}
-            <Project
-              title="Team Profile Generator"
-              image={teamImg}
-              href="https://github.com/cphill11/team-profile-generator.git"
-            />
-          </div>
+          {/* Object-Oriented Programming Challenge */}
+          <Project
+            title="Team Profile Generator"
+            image={teamImg}
+            href="https://github.com/cphill11/team-profile-generator.git"
+          />
 
-          <div class="col-6-md-auto">
-            {/* Node.js Challenge */}
-            <Project
-              title="README Generator"
-              image={readImg}
-              href="https://github.com/cphill11/readme-generator.git"
-            />
-          </div>
-
-          <div class="col-6-md-auto">
-            {/* Express.js Challenge: Note Taker */}
-            <Project
-              title="Note Taker"
-              image={noteImg}
-              href="https://github.com/cphill11/note-taker.git"
-            />
-          </div>
-
-          <div class="col-6-md-auto">
-            {/* Interactive Full-Stack Group Project */}
-            <Project
-              title="Fetch"
-              image={fetchImg}
-              href="https://github.com/cphill11/fetching.git"
-            />
-          </div>
-
-          <div class="col-6-md-auto">
-            {/* NoSQL Social Network API */}
-            <Project
-              title="Social Network"
-              image={socialImg}
-              href="https://github.com/cphill11/social-network.git"
-            />
-          </div>
+          {/* Node.js Challenge */}
+          <Project
+            title="README Generator"
+            image={readImg}
+            href="https://github.com/cphill11/readme-generator.git"
+          />
         </div>
-        <Footer />
+
+        <div className="SplitPane-Right"> {props.right}
+          {/* Express.js Challenge: Note Taker */}
+          <Project
+            title="Note Taker"
+            image={noteImg}
+            href="https://github.com/cphill11/note-taker.git"
+          />
+          {/* Interactive Full-Stack Group Project */}
+          <Project
+            title="Fetch"
+            image={fetchImg}
+            href="https://github.com/cphill11/fetching.git"
+          />
+          {/* NoSQL Social Network API */}
+          <Project
+            title="Social Network"
+            image={socialImg}
+            href="https://github.com/cphill11/social-network.git"
+          />
+        </div>
       </div>
+      <Footer />
     </section>
   );
 }
