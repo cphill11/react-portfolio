@@ -1,4 +1,6 @@
 import React from "react";
+import '../index.css';
+import '../media-queries.css';
 
 function NavTabs({ currentPage, handlePageChange }) {
   return (

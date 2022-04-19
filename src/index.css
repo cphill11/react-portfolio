@@ -209,22 +209,23 @@ img {
 }
 
 .SplitPane {
-  height: 800px;
-  padding: 10px;
+  height: 900px;
+  padding: 50px;;
 }
 
 .SplitPane img {
-  height: 195px;
-  width: 350px;
+  height: 215px;
+  width: 375px;
 }
+
 .SplitPane-Left {
   float: left;
   width: 50%;
   text-align: center;
+  justify-content: space-between;
 }
 
 .SplitPane-Right {
-  /* justify-content: right; */
   float: right;
   width: 50%;
   text-align: center;

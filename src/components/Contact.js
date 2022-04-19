@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import '../index.css';
+import '../media-queries.css';
 
 import { validateEmail } from '../utils/helpers'; 
 function ContactForm() {
