@@ -1,5 +1,15 @@
 # Professional React-based SPA Digital Portfolio
 
+## Table of Contents
+* [Description](#description)
+* [Installation](#installation)
+* [Links](#links)
+* [Image](#image)
+* [Credits](#credits)
+* [License](#license)
+* [Badges](#badges)
+* [Contributing](#contributing)
+
 ## Description
 
 Loading portfolio shows the user a page containing a header, a content section, and a footer.  Viewing the header presents the developer's name and navigation with titles corresponding to different sections of the portfolio.
