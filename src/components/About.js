@@ -10,7 +10,7 @@ function About() {
     // class my-5 = (m) margin (y) top & bottom - (5) $spacer-y * 3
     <section className="my-5">
       <h1 id="about">About Me</h1>
-
+      <div id="aboutPhoto">
       {/* Recent photo and short bio */}
       <img
         src={professionalImage}
@@ -26,6 +26,7 @@ function About() {
           Currently residing in the Cleveland area and working with Phillips
           Technology Group as General Office Manager.
         </p>
+      </div>
       </div>
     </section>
   );
