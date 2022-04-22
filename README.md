@@ -32,9 +32,7 @@ Viewing the footer displays text or icon links to the developer’s GitHub and L
 
 
 ## Links
-GitHub Repo:
-
-Heroku Link: 
+GitHub Repo: https://github.com/cphill11/react-portfolio.git
 
 
 
