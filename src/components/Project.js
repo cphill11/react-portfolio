@@ -6,6 +6,7 @@ const Project = (props) => {
   return (
     <>
       <div>{props.title}</div>
+      <div>{props.subtitle}</div>
       <a href={props.href}>
         <img src={props.image} className="projects" alt=""></img>
       </a>

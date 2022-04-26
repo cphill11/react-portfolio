@@ -18,23 +18,26 @@ function Portfolio(props) {
         {" "}
         {props.left}
         <div className="SplitPane-Left">
-          {/* Interative Front-End Group Project */}
+
           <Project
             title="Comics and Cocktails"
+            subtitle="Interactive Front-End Group Project"
             image={comicImg}
             href="https://github.com/cphill11/comics-and-cocktails.git"
           />
 
-          {/* Object-Oriented Programming Challenge */}
+
           <Project
             title="Team Profile Generator"
+            subtitle="Object-Oriented Programming"
             image={teamImg}
             href="https://github.com/cphill11/team-profile-generator.git"
           />
 
-          {/* Node.js Challenge */}
+
           <Project
             title="README Generator"
+            subtitle="Node.js"
             image={readImg}
             href="https://github.com/cphill11/readme-generator.git"
           />
@@ -42,21 +45,24 @@ function Portfolio(props) {
         <div className="SplitPane-Right">
           {" "}
           {props.right}
-          {/* Express.js Challenge: Note Taker */}
+        
           <Project
             title="Note Taker"
+            subtitle="Express.js"
             image={noteImg}
             href="https://github.com/cphill11/note-taker.git"
           />
-          {/* Interactive Full-Stack Group Project */}
+         
           <Project
             title="Fetch"
+            subtitle="Interactive Full-Stack Group Project"
             image={fetchImg}
             href="https://github.com/cphill11/fetching.git"
           />
-          {/* NoSQL Social Network API */}
+   
           <Project
             title="Social Network"
+            subtitle="NoSQL Social Network API"
             image={socialImg}
             href="https://github.com/cphill11/social-network.git"
           />

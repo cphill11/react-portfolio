@@ -62,6 +62,8 @@ h2 {
   font-weight: bolder;
   text-align: center;
   color: var(--primary-color);
+  margin-bottom: 0;
+  margin-top: 6%;
 }
 
 h3 {
@@ -364,9 +366,6 @@ footer li a {
   margin-bottom: var(--spacing-two);
 }
 
-.my-5 {
-  margin-bottom: var(--spacing-five);
-}
 
 .px-1 {
   padding-right: var(--spacing-one);

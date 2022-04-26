@@ -7,7 +7,7 @@ function Header(props) {
   return (
     <header className="my-5">
       <img src={nzImg} alt="" />
-      <h2> Criste Phillips</h2>
+      <h2> Criste L. Phillips, B.S.</h2>
     </header>
   );
 }
