@@ -29,12 +29,13 @@ Viewing the footer displays text or icon links to the developer’s GitHub and L
 ## Installation
 * bootstrap
 * npx react
+* nodemailer
 
 
 ## Links
 GitHub Repo: https://github.com/cphill11/react-portfolio.git
 
-
+Deployed Link: https://cphill11.github.io/react-portfolio/
 
 
 ## Image

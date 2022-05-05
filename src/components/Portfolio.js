@@ -5,7 +5,7 @@ import teamImg from "../assets/images/team-profile-generator.jpg";
 import readImg from "../assets/images/readme-generator.jpg";
 import noteImg from "../assets/images/note-taker.jpg";
 import fetchImg from "../assets/images/fetch.jpg";
-import socialImg from "../assets/images/social-network.jpg";
+import greatImg from "../assets/images/great-reads.jpg";
 import Footer from "./Footer";
 
 function Portfolio(props) {
@@ -61,10 +61,10 @@ function Portfolio(props) {
           />
    
           <Project
-            title="Social Network"
-            subtitle="NoSQL Social Network API"
-            image={socialImg}
-            href="https://github.com/cphill11/social-network.git"
+            title="Great Reads"
+            subtitle="Interactive Full-Stack Group Project"
+            image={greatImg}
+            href="https://github.com/cphill11/great-reads.git"
           />
         </div>
       </div>
