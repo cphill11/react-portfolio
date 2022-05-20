@@ -18,10 +18,9 @@ function Resume() {
           <li>Group Projects: Front-End and Full Stack</li>
         </ul>
       </div>
-      <div>
+      <div id="pdf">
         <a
-          href={pdf}
-          id="pdf"
+          href={pdf}          
           className="my-4"
           target="_blank"
           rel="noreferrer"

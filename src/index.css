@@ -63,7 +63,7 @@ h2 {
   text-align: center;
   color: var(--primary-color);
   margin-bottom: 0;
-  margin-top: 6%;
+  margin-top: 1%;
 }
 
 h3 {
@@ -114,7 +114,7 @@ header ul {
   align-items: center;
   flex-direction: row;
   justify-content: space-between;
-  padding: 15px 8% 15px 15%;
+  padding: 3px 8% 3px 15%;
 }
 
 header li a {
@@ -162,8 +162,7 @@ button[disabled] {
   display: flex;
   justify-content: space-between;
   align-items: stretch;
-  padding-top: 6%;
-  padding-bottom: 10%;
+  padding: 2% 5% 12% 2%;
 }
 
 #contact-form {
@@ -172,6 +171,7 @@ button[disabled] {
 #summary {
   height: 375px;
   padding: 2.5%;
+  display: flex;
 }
 
 #skillset {
@@ -182,12 +182,14 @@ button[disabled] {
   font-size: 30px;
   color: #676363;
   text-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+  margin-bottom: 10px;
 }
 
 #pdf {
   font-size: 30px;
   color: #302e2e;
   text-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+  padding: 0px 0px 40px 50px;
 }
 
 #pdf:hover {
@@ -304,9 +306,7 @@ footer {
   position: fixed;
   position: absolute;
   width: 100%;
-  /* margin: 0 0 0 0; */
-  margin-top: auto;
-  height: 200px;
+  height: 140px;
 }
 
 footer section {
@@ -315,13 +315,13 @@ footer section {
   align-items: center;
   justify-content: space-between;
   flex-direction: row;
-  padding: 25px 25% 25px 25%;
-  margin: 0;
+  padding: 10px 10% 0px 10%;
 }
 
-footer li a {
+footer li {
   display: inline;
-  padding: 12px;
+  margin: 15px;
+  padding: 5px;
 }
 
 .container {
