@@ -158,6 +158,10 @@ button[disabled] {
   background-position-x: 100%;
 }
 
+.aboutSection {
+  min-height: 800px;
+}
+
 #aboutPhoto {
   display: flex;
   justify-content: space-between;

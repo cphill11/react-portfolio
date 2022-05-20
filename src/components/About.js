@@ -8,7 +8,7 @@ function About() {
   // JSX being returned to represent HTML in JS
   return (
     // class my-5 = (m) margin (y) top & bottom - (5) $spacer-y * 3
-    <section className="my-5">
+    <section className="aboutSection">
       <h1 id="about">About Me</h1>
       <div id="aboutPhoto">
         {/* Recent photo and short bio */}
