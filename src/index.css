@@ -168,9 +168,9 @@ button[disabled] {
 #contact-form {
   margin: 0;
 }
+
 #summary {
-  height: 375px;
-  padding: 2.5%;
+  padding: 3.5%;
   display: flex;
 }
 

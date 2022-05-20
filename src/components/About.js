@@ -11,14 +11,14 @@ function About() {
     <section className="my-5">
       <h1 id="about">About Me</h1>
       <div id="aboutPhoto">
-      {/* Recent photo and short bio */}
-      <img
-        src={professionalImage}
-        className="photo"
-        style={{ width: "25" }}
-        alt="blonde woman in suit jacket"
-      />
-      <div className="my-2" id="summary">
+        {/* Recent photo and short bio */}
+        <img
+          src={professionalImage}
+          className="photo"
+          style={{ width: "25" }}
+          alt="blonde woman in suit jacket"
+        />
+      <div id="summary">
         <p>
           Junior Developer seeking technical experience after completion of Case
           Western Reserve University's Full Stack Web Development program. Prior
