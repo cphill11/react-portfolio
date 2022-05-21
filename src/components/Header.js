@@ -5,7 +5,7 @@ import '../media-queries.css';
 
 function Header(props) {
   return (
-    <header className="my-5">
+    <header>
       <img src={nzImg} alt="" />
       <h2> Criste L. Phillips, B.S.</h2>
     </header>

@@ -228,17 +228,19 @@ img {
   box-shadow: 7px 7px 5px 0px rgba(50, 50, 50, 0.75);
 }
 
+
 .SplitPane {
-  height: 900px;
-  padding: 50px;;
+  height: 250px;
   font-size: 25px;
   color: #3f3b3b;
-  margin-bottom: 100px;
+  display: flex;
+  flex-direction: column;
 }
 
 .SplitPane img {
-  height: 215px;
+  height: 200px;
   width: 375px;
+  margin: 1rem 1rem 10rem 0.5rem;
 }
 
 .SplitPane-Left {
@@ -248,11 +250,18 @@ img {
   justify-content: space-between;
 }
 
+.SplitPane-Mid {
+  float: right;
+  width: 50%;
+  text-align: center;
+}
+
 .SplitPane-Right {
   float: right;
   width: 50%;
   text-align: center;
 }
+
 
 span[role="img"] {
   cursor: default;

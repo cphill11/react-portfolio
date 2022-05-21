@@ -10,49 +10,49 @@ import Footer from "./Footer";
 
 function Portfolio(props) {
   return (
-    <section className="my-5">
+    <div>
       <h1 id="portfolio">
         Portfolio Display: Click on Image for link to Repository
       </h1>
       <div className="SplitPane">
         {" "}
         {props.left}
-        <div className="SplitPane-Left">
-
-          <Project
-            title="Comics and Cocktails"
-            subtitle="Interactive Front-End Group Project"
-            image={comicImg}
-            href="https://github.com/cphill11/comics-and-cocktails.git"
-          />
-
-
-          <Project
-            title="Team Profile Generator"
-            subtitle="Object-Oriented Programming"
-            image={teamImg}
-            href="https://github.com/cphill11/team-profile-generator.git"
-          />
-
-
-          <Project
-            title="README Generator"
-            subtitle="Node.js"
-            image={readImg}
-            href="https://github.com/cphill11/readme-generator.git"
-          />
-        </div>
-        <div className="SplitPane-Right">
-          {" "}
-          {props.right}
-        
+        <div className="SplitPane-Left">   
           <Project
             title="Note Taker"
             subtitle="Express.js"
             image={noteImg}
             href="https://github.com/cphill11/note-taker.git"
           />
+         <Project
+            title="Team Profile Generator"
+            subtitle="Object-Oriented Programming"
+            image={teamImg}
+            href="https://github.com/cphill11/team-profile-generator.git"
+          />
+        </div>
+        <div className="SplitPane-Mid">
+          {" "}
+          {props.mid}     
+          <Project
+            title="README Generator"
+            subtitle="Node.js"
+            image={readImg}
+            href="https://github.com/cphill11/readme-generator.git"
+          />
          
+         <Project
+            title="Comics and Cocktails"
+            subtitle="Interactive Front-End Group Project"
+            image={comicImg}
+            href="https://github.com/cphill11/comics-and-cocktails.git"
+          />
+   
+        </div>
+        <div className="SplitPane-Right">
+          {" "}
+          {props.right}
+              
           <Project
             title="Fetch"
             subtitle="Interactive Full-Stack Group Project"
@@ -69,7 +69,7 @@ function Portfolio(props) {
         </div>
       </div>
       <Footer />
-    </section>
+    </div>
   );
 }
 
