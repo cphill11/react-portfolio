@@ -43,7 +43,7 @@ function Portfolio(props) {
          
          <Project
             title="Comics and Cocktails"
-            subtitle="Interactive Front-End Group Project"
+            subtitle="Full Stack Group Project"
             image={comicImg}
             href="https://github.com/cphill11/comics-and-cocktails.git"
           />
@@ -55,14 +55,14 @@ function Portfolio(props) {
               
           <Project
             title="Fetch"
-            subtitle="Interactive Full-Stack Group Project"
+            subtitle="Full Stack Group Project"
             image={fetchImg}
             href="https://github.com/cphill11/fetching.git"
           />
    
           <Project
             title="Great Reads"
-            subtitle="Interactive Full-Stack Group Project"
+            subtitle="Full Stack Group Project"
             image={greatImg}
             href="https://github.com/cphill11/great-reads.git"
           />

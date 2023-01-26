@@ -248,10 +248,10 @@ and (orientation : portrait)
 {
     .SplitPane {
         height: 900px;
-        padding: 0 2% 0 2%;
+        padding: 0% 2% 0% 2%;
         font-size: 25px;
         color: #3f3b3b;
-        margin-bottom: 100px;
+        margin-bottom: 50px;
         display: flex;
         flex-direction: row;
         background-color: rgb(148, 148, 198);
@@ -279,20 +279,32 @@ and (orientation : portrait)
 .SplitPane-Left {
   float: left;
   width: 50%;
+  /* height: 75%; */
   text-align: center;
   justify-content: space-between;
+  padding: 3% 0% 3% 0%;
+  font-style: italic;
+  color: rgb(63, 63, 140);
 }
 
 .SplitPane-Mid {
   float: right;
   width: 50%;
+  /* height: 75%; */
   text-align: center;
+  padding: 3% 0% 3% 0%;
+  font-style: italic;
+  color: rgb(63, 63, 140);
 }
 
 .SplitPane-Right {
   float: right;
   width: 50%;
+  /* height: 75%; */
   text-align: center;
+  padding: 3% 0% 3% 0%;
+  font-style: italic;
+  color: rgb(63, 63, 140);
 }
 
 
@@ -331,9 +343,9 @@ nav a:hover {
 }
 
 nav-item {
-  padding: 0% 15% 0% 15%;
   margin: 0 0%;
   }
+
 nav li {
   cursor: pointer;
 }
@@ -366,12 +378,13 @@ footer section {
   justify-content: space-between;
   flex-direction: row;
   padding: 10px 10% 0px 10%;
+  margin: 0 10%;
 }
 
 footer li {
   display: inline;
   margin: 15px;
-  padding: 5px;
+  padding: 0% 3% 0% 3%;
 }
 
 .container {
