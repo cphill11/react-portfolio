@@ -7,7 +7,6 @@ import noteImg from "../assets/images/note-taker.jpg";
 import fetchImg from "../assets/images/fetch.jpg";
 import greatImg from "../assets/images/great-reads.jpg";
 import Footer from "./Footer";
-
 function Portfolio(props) {
   return (
     <div>

@@ -6,18 +6,21 @@ import '../media-queries.css';
 function Resume() {
   return (
     <section>
-      <h1 id="resume">Resume</h1>
+      <h1 id="resume">Resume Overview</h1>
       <div id="skillset">
-        <ul>
-          <li>HTML / CSS / JavaScript</li>
-          <li>Git</li>
-          <li>Bootstrap</li>
-          <li>MERN Stack</li>
-          <li>SQL / NoSQL</li>
-          <li>Object-Oriented Programming</li>
-          <li>Group Projects: Front-End and Full Stack</li>
-        </ul>
-      </div>
+        <ul> 
+          <li>IDE:IntelliJ and Visual Studio Code</li>
+          <li>MERN Stack: MongoDB, React.js, Express.JS, Node.js</li>
+          <li>Java: Object-Oriented Programming: Java, JavaScript</li>
+          <li>HTML / CSS / Bootstrap / Bulma</li>
+          <li>SQL / SQL Workbench / Mongoose</li>
+          <li>RESTful APIs</li>
+          <li>Kanbans: Jira and GitHub</li>
+          <li>Docker</li>
+          <li>Spring Framework</li>
+          </ul>
+      
+        </div>
       <div id="pdf">
         <a
           href={pdf}          

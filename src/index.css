@@ -85,7 +85,7 @@ h6 {
 p {
   font-size: 1.5rem;
   margin-top: 0;
-  padding: 25px;
+  padding: 15px;
   text-align: justify;
 }
 
@@ -166,7 +166,7 @@ button[disabled] {
   display: flex;
   justify-content: space-between;
   align-items: stretch;
-  padding: 2% 5% 12% 2%;
+  padding: 3% 5% 0.5% 2%;
 }
 
 #contact-form {
@@ -174,24 +174,25 @@ button[disabled] {
 }
 
 #summary {
-  padding: 3.5%;
-  display: flex;
+  padding: 0% 2% 0% 3%;
+  display: vertical;
 }
 
 #skillset {
   height: 600px;
 }
 #skillset ul li {
-  padding: 10px;
-  font-size: 30px;
-  color: #676363;
-  text-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+  padding: 0.5% 2% 0.5% 3%;
+  font-size: 23px;
+  color: #545252;
+  text-shadow: 10px 10px 20px rgba(53, 52, 52, 0.5);
   margin-bottom: 10px;
+  display: vertical;
 }
 
 #pdf {
   font-size: 30px;
-  color: #302e2e;
+  color: #38356c;
   text-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
   padding: 0px 0px 40px 50px;
 }
