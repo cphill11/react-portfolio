@@ -13,6 +13,7 @@ function Portfolio(props) {
       <h1 id="portfolio">
         Portfolio Display: Click on Image for link to Repository
       </h1>
+      <div id="backing">
       <div className="SplitPane">
         {" "}
         {props.left}
@@ -66,6 +67,7 @@ function Portfolio(props) {
             href="https://github.com/cphill11/great-reads.git"
           />
         </div>
+      </div>
       </div>
       <Footer />
     </div>
