@@ -6,10 +6,10 @@ import '../media-queries.css';
 function Ancillary () {
     return (
         <section>
-            <hi id="ancillary">Ancillary Skillset from Johns Hopkins Carey School of Business </hi>
-            <div id="skills">
+            <h1 id="ancillary">Ancillary Skillset</h1>
+            <div id="skillset">
         <ul> 
-          <li>Business Communications</li>
+          <li>Professional Communication Tools: MS Teams, Zoom, Slack</li>
           <li>Business Leadership and Human Values</li>
           <li>Statistical Analysis</li>
           <li>Business Analytics</li>
@@ -17,8 +17,7 @@ function Ancillary () {
           <li>Negotiations</li>
           <li>Data Analytics - Spring 2023</li>
           </ul>
-      
-        </div>
+         </div>
       <div id="pdf">
         <a
           href={pdf}          

@@ -12,7 +12,7 @@ function NavTabs({ currentPage, handlePageChange }) {
             onClick={() => handlePageChange("About")}
             className={currentPage === "About" ? "nav-link active" : "nav-link"}
           >
-            About
+            Bio
           </a>
         </li>
         <li className="nav-item">
@@ -23,7 +23,19 @@ function NavTabs({ currentPage, handlePageChange }) {
               currentPage === "Resume" ? "nav-link active" : "nav-link"
             }
           >
-            Coding Overview
+            Coding
+          </a>
+        </li>
+
+        <li className="nav-item">
+          <a
+            href="#ancillary"
+            onClick={() => handlePageChange("Ancillary")}
+            className={
+              currentPage === "Ancillary" ? "nav-link active" : "nav-link"
+            }
+          >
+            Ancillary 
           </a>
         </li>
         <li className="nav-item">
@@ -34,21 +46,10 @@ function NavTabs({ currentPage, handlePageChange }) {
               currentPage === "Portfolio" ? "nav-link active" : "nav-link"
             }
           >
-            Coding Portfolio
+            Projects
           </a>
         </li>
-        <li className="nav-item">
-          <a
-            href="#ancillary"
-            onClick={() => handlePageChange("Ancillary")}
-            className={
-              currentPage === "Ancillary" ? "nav-link active" : "nav-link"
-            }
-          >
-            Ancillary Skillset
-          </a>
-        </li>
-        {/* <li className="nav-item">
+          {/* <li className="nav-item">
           <a
             href="#contact"
             onClick={() => handlePageChange("Contact")}
