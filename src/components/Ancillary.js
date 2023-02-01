@@ -16,6 +16,9 @@ function Ancillary () {
           <li>Managing Complex Projects</li>
           <li>Negotiations</li>
           <li>Data Analytics - Spring 2023</li>
+          <li></li>
+          <li></li>
+          <li> Graduating from Johns Hopkins Carey School of Business December '23 with M.S</li>
           </ul>
          </div>
       <div id="pdf">
