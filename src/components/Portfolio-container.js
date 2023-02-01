@@ -3,6 +3,7 @@ import About from "./About";
 // import Contact from "./Contact";
 import Resume from "./Resume";
 import Portfolio from "./Portfolio";
+import Ancillary from "./Ancillary";
 import NavTabs from "./NavTabs";
 import Footer from "./Footer";
 import Header from "./Header";
@@ -20,6 +21,9 @@ export default function PortfolioContainer() {
     }
     if (currentPage === "Portfolio") {
       return <Portfolio />;
+    }
+    if (currentPage === "Ancillary") {
+      return <Ancillary/>;
     }
     // if (currentPage === "Contact") {
     //   return <Contact />;

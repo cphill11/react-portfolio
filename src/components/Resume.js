@@ -6,7 +6,7 @@ import '../media-queries.css';
 function Resume() {
   return (
     <section>
-      <h1 id="resume">Resume Overview</h1>
+      <h1 id="resume">Coding Stack Overview</h1>
       <div id="skillset">
         <ul> 
           <li>IDE:IntelliJ and Visual Studio Code</li>

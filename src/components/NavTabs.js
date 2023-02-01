@@ -23,7 +23,7 @@ function NavTabs({ currentPage, handlePageChange }) {
               currentPage === "Resume" ? "nav-link active" : "nav-link"
             }
           >
-            Resume
+            Coding Overview
           </a>
         </li>
         <li className="nav-item">
@@ -34,7 +34,18 @@ function NavTabs({ currentPage, handlePageChange }) {
               currentPage === "Portfolio" ? "nav-link active" : "nav-link"
             }
           >
-            Portfolio
+            Coding Portfolio
+          </a>
+        </li>
+        <li className="nav-item">
+          <a
+            href="#ancillary"
+            onClick={() => handlePageChange("Ancillary")}
+            className={
+              currentPage === "Ancillary" ? "nav-link active" : "nav-link"
+            }
+          >
+            Ancillary Skillset
           </a>
         </li>
         {/* <li className="nav-item">

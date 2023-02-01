@@ -155,6 +155,7 @@ button[disabled] {
 #about,
 #resume,
 #contact,
+#ancillary,
 #portfolio {
   text-align: left;
   padding-left: 65px;
@@ -187,6 +188,14 @@ button[disabled] {
   height: 600px;
 }
 #skillset ul li {
+  padding: 0.5% 2% 0.5% 3%;
+  font-size: 23px;
+  color: #545252;
+  text-shadow: 10px 10px 20px rgba(53, 52, 52, 0.5);
+  margin-bottom: 10px;
+  display: vertical;
+}
+#skills ul li {
   padding: 0.5% 2% 0.5% 3%;
   font-size: 23px;
   color: #545252;
