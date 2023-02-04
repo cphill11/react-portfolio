@@ -9,7 +9,7 @@ function Ancillary () {
             <h1 id="ancillary">Ancillary Skillset</h1>
             <div id="skillset">
         <ul> 
-          <li>Professional Communication Tools: MS Teams, Zoom, Slack</li>
+          <li>Professional Communication Tools: MS Teams, Zoom, Slack, Miro Mind Maps</li>
           <li>Business Leadership and Human Values</li>
           <li>Statistical Analysis</li>
           <li>Business Analytics</li>
