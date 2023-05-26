@@ -22,7 +22,7 @@ function About() {
         <p>
           Junior Developer building professional and technical experience after completion of Case Western Reserve University's Full Stack Web Development program. 
 
-          Completed immersive Java Coding Bootcamp with Southern Methodist University and provided by Cognizant.
+          Completed immersive Java Coding Bootcamp with Southern Methodist University.
          </p>   
          <p>
           Front End Development is fantastic as it allows developers to quickly influence the users experience and review changes live time.  Back End Development is outstanding as it enables developers to create a solid framework for functionality that allows individuals to interact with the user interface efficiently and effectively. 
