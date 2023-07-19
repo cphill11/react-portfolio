@@ -15,10 +15,8 @@ function Ancillary () {
           <li>Business Analytics</li>
           <li>Managing Complex Projects</li>
           <li>Negotiations</li>
-          <li>Data Analytics - Spring 2023</li>
+          <li>Data Analytics</li>
           <li></li>
-          <li></li>
-          <li> Graduating from Johns Hopkins Carey School of Business December '23 with M.S</li>
           </ul>
          </div>
       <div id="pdf">
@@ -27,9 +25,7 @@ function Ancillary () {
           className="my-4"
           target="_blank"
           rel="noreferrer"
-        >
-          Resume Downloadable as PDF
-        </a>
+        >Resume Downloadable as PDF</a>
       </div>
     </section>
   );

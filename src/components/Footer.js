@@ -14,15 +14,13 @@ function Footer() {
       <br></br>
       <li>
         <a href="https://github.com/cphill11" className="gitHub">
-          GitHub
+          GitHub Repositories
         </a>
       </li>
       <br></br>
       <li>
-        <a
-          href="https://stackoverflow.com/users/17097977/criste-phillips"
-          className="stackOverflow">
-          Stack Overflow
+        <a href="mailto:criste.phillips@phillipstechnologygroup.com?">
+          Email
         </a>
       </li>
     </section>

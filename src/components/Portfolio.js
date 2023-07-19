@@ -2,8 +2,8 @@ import React from "react";
 import Project from "./Project";
 import comicImg from "../assets/images/comics-and-cocktails.jpg";
 import teamImg from "../assets/images/team-profile-generator.jpg";
-import readImg from "../assets/images/readme-generator.jpg";
-import noteImg from "../assets/images/note-taker.jpg";
+import keepingTallyImg from "../assets/images/keepingTally.jpg";
+import familyPetImg from "../assets/images/familyPets.jpg";
 import fetchImg from "../assets/images/fetch.jpg";
 import greatImg from "../assets/images/great-reads.jpg";
 import Footer from "./Footer";
@@ -11,7 +11,7 @@ function Portfolio(props) {
   return (
     <div>
       <h1 id="portfolio">
-        Portfolio Display: Click on Image for link to Repository
+        Portfolio Display: Click on Image to open link to informative Repository README.md file
       </h1>
       <div id="backing">
       <div className="SplitPane">
@@ -19,10 +19,10 @@ function Portfolio(props) {
         {props.left}
         <div className="SplitPane-Left">   
           <Project
-            title="Note Taker"
-            subtitle="Express.js"
-            image={noteImg}
-            href="https://github.com/cphill11/note-taker.git"
+            title="Family Pets"
+            subtitle="Front-End Only"
+            image={familyPetImg}
+            href="https://github.com/cphill11/family-pets/blob/main/README.md"
           />
          <Project
             title="Team Profile Generator"
@@ -35,10 +35,10 @@ function Portfolio(props) {
           {" "}
           {props.mid}     
           <Project
-            title="README Generator"
-            subtitle="Node.js"
-            image={readImg}
-            href="https://github.com/cphill11/readme-generator.git"
+            title="Keeping Tally"
+            subtitle="Html, CSS, JS"
+            image={keepingTallyImg}
+            href="https://github.com/cphill11/keeping-tally/blob/main/README.md"
           />
          
          <Project
