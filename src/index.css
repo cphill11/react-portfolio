@@ -288,7 +288,7 @@ nav li {
 
 footer {
   background: linear-gradient(to right, rgb(69, 80, 126), rgb(29, 20, 50));
-  position: fixed;
+  position: relative;
   position: absolute;
   display: flex;
   flex-direction: column;

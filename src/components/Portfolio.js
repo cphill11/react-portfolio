@@ -41,7 +41,7 @@ function Portfolio(props) {
             title="Great Reads"
             subtitle="Full Stack Group Project"
             image={greatImg}
-            href="https://github.com/cphill11/great-reads.git"
+            href="https://github.com/cphill11/great-reads/blob/main/README.md"
           />
         </div>
       </div>
