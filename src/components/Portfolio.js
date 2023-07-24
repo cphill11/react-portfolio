@@ -69,9 +69,8 @@ function Portfolio(props) {
         </div>
       </div>
       </div>
-      <Footer />
+      <Footer/>
     </div>
   );
 }
-
 export default Portfolio;

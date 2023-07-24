@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import About from "./About";
-// import Contact from "./Contact";
 import Resume from "./Resume";
 import Portfolio from "./Portfolio";
 import Ancillary from "./Ancillary";
@@ -25,9 +24,6 @@ export default function PortfolioContainer() {
     if (currentPage === "Ancillary") {
       return <Ancillary/>;
     }
-    // if (currentPage === "Contact") {
-    //   return <Contact />;
-    // }
   };
 
   const handlePageChange = (page) => setCurrentPage(page);
