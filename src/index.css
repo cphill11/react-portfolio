@@ -160,6 +160,10 @@ button[disabled] {
   background-color: #cdc4c2;
   margin: 0;
 }
+.aboutSection {
+  padding: 0;
+  height: 900px;
+}
 
 #aboutPhoto {
   display: flex;
@@ -173,8 +177,10 @@ button[disabled] {
 }
 
 #skillset {
-  height: 600px;
+  height: 700px;
+  padding: 0;
 }
+
 #skillset ul li {
   padding: 0.5% 2% 0.5% 3%;
   font-size: 23px;
@@ -211,10 +217,11 @@ img {
   box-shadow: 7px 7px 5px 0px rgba(50, 50, 50, 0.75);
 }
 
-#backing{
+#backing {
   padding: 1% 0% 1% 0%;
   background-color:rgb(235, 230, 226);
   margin: 0 0px;
+  height: 55vh;
 }
 .projects {
   width: 25%;

@@ -2,7 +2,7 @@ import React from "react";
 import Project from "./Project";
 import keepingTallyImg from "../assets/images/keepingTally.jpg";
 import familyPetImg from "../assets/images/familyPets.jpg";
-import greatImg from "../assets/images/great-reads.jpg";
+// import greatImg from "../assets/images/great-reads.jpg";
 import Footer from "./Footer";
 function Portfolio(props) {
   return (
@@ -22,18 +22,17 @@ function Portfolio(props) {
             href="https://github.com/cphill11/family-pets/blob/main/README.md"
           />
         </div>
-        <div className="SplitPane-Mid">
+        <div className="SplitPane-Right">
           {" "}
-          {props.mid}     
+          {props.right}     
           <Project
             title="Keeping Tally"
             subtitle="Html, CSS, JS"
             image={keepingTallyImg}
             href="https://github.com/cphill11/keeping-tally/blob/main/README.md"
           />        
- 
         </div>
-        <div className="SplitPane-Right">
+        {/* <div className="SplitPane-Right">
           {" "}
           {props.right}  
  
@@ -43,7 +42,7 @@ function Portfolio(props) {
             image={greatImg}
             href="https://github.com/cphill11/great-reads/blob/main/README.md"
           />
-        </div>
+        </div> */}
       </div>
       </div>
       <Footer/>
