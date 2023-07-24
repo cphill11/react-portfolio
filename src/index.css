@@ -15,11 +15,11 @@
   --spacing-five: calc(2.5rem);
 }
 
-/* main {
+main {
   margin: 0 auto;
   max-width: 100%;
-  padding: 50px 30px;
-} */
+  /* padding: 50px 30px; */
+}
 
 html,
 body {
@@ -28,7 +28,7 @@ body {
 
 body {
   margin: 0;
-  padding: 0;
+  /* padding: 0; */
   font-weight: 600;
   line-height: 1.5;
   font-size: 32px;
@@ -55,7 +55,7 @@ h6 {
 
 h1 {
   font-size: 2.25rem;
-  padding: 25px;
+  padding: 25px 0 25px 0;
 }
 
 h2 {
@@ -86,7 +86,7 @@ h6 {
 p {
   font-size: 1.5rem;
   margin-top: 0;
-  padding: 15px;
+  padding: 5px 0 5px 0;
   text-align: justify;
 }
 
@@ -110,23 +110,20 @@ header {
   justify-content: space-between;
 }
 
-header h2 {
-  padding: 0% 10% 0% 10%;
-}
 header ul {
   display: flex;
   align-items: center;
   flex-direction: row;
   justify-content: space-between;
-  padding: 0% 15% 0% 15%;
+  padding: 0% 8% 0% 8%;
 }
 
 header li a {
-  /* color: var(--primary-color); */
   color: rgb(203, 198, 193);
   display: inline;
   font-style: italic;
   font-size: 30px;
+  padding: 0% 8% 0% 8%;
 }
 
 header img {
@@ -156,18 +153,12 @@ button[disabled] {
 
 #about,
 #resume,
-#contact,
 #ancillary,
 #portfolio {
   text-align: left;
   padding-left: 65px;
   background-color: #cdc4c2;
-  margin: 0 0px;
-}
-
-.aboutSection {
-  min-height: 600px;
-  display: vertical;
+  margin: 0;
 }
 
 #aboutPhoto {
@@ -177,13 +168,8 @@ button[disabled] {
   padding: 3% 5% 0.5% 2%;
 }
 
-#contact-form {
-  margin: 0;
-}
-
 #summary {
-  padding: 0% 2% 0% 3%;
-  
+  padding: 0% 2% 0% 5%;
 }
 
 #skillset {
@@ -197,14 +183,6 @@ button[disabled] {
   margin-bottom: 10px;
   display: vertical;
 }
-/* #skills ul li {
-  padding: 0.5% 2% 0.5% 3%;
-  font-size: 23px;
-  color: #545252;
-  text-shadow: 10px 10px 20px rgba(53, 52, 52, 0.5);
-  margin-bottom: 10px;
-  display: vertical;
-} */
 
 #pdf {
   font-size: 30px;
@@ -250,37 +228,6 @@ img {
   box-shadow: 7px 7px 5px 0px rgba(50, 50, 50, 0.75);
 }
 
-
-.SplitPane {
-  height: 250px;@media only screen 
-and (min-device-width : 769px) 
-and (max-device-width : 1024px) 
-and (orientation : portrait)
-{
-    .SplitPane {
-        height: 900px;
-        padding: 0% 2% 0% 2%;
-        font-size: 25px;
-        color: #3f3b3b;
-        margin-bottom: 50px;
-        display: flex;
-        flex-direction: row;
-        background-color: rgb(148, 148, 198);
-      }
-
-      .SplitPane img {
-        height: 130px;
-        width: 205px;
-        margin: 1rem 1rem 10rem 0.5rem;
-      }
-      
-}
-  font-size: 25px;
-  color: #3f3b3b;
-  display: flex;
-  flex-direction: column;
-}
-
 .SplitPane img {
   height: 200px;
   width: 375px;
@@ -318,33 +265,11 @@ and (orientation : portrait)
   color: rgb(63, 63, 140);
 }
 
-
 span[role="img"] {
   cursor: default;
 }
 
-form {
-  width: 80%;
-  height: 650px;
-  justify-content: center;
-  padding: 50px;
-  margin: 25px 0 25px;
-}
-
-input {
-  font-size: 1rem;
-  padding: 0.25rem;
-  border: 1px solid var(--dark);
-  outline: none;
-  border-radius: 3px;
-  transition: box-shadow 0.2s;
-}
-
-input:focus {
-  border: 1px solid var(--secondary);
-  box-shadow: 0 0 0.25rem rgba(0, 0, 0, 0.5);
-}
-
+/* nav section*/
 li {
   list-style: none;
 }
@@ -361,35 +286,27 @@ nav li {
   cursor: pointer;
 }
 
-textarea {
-  width: 600px;
-  height: 120px;
-  border: 3px solid #cccccc;
-  padding: 5px;
-}
-
 footer {
-  font-weight: 100;
-  font-size: 35px;
-  font-style: italic;
   background: linear-gradient(to right, rgb(69, 80, 126), rgb(29, 20, 50));
-  justify-content: space-between;
-  padding: 0.5rem;
-  text-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
-  /* position: fixed; */
+  position: fixed;
   position: absolute;
   display: flex;
   flex-direction: column;
   width: 100%;
-  height: 140px;
+  height: 190px;
 }
 
 footer section {
+  font-weight: 100;
+  font-size: 35px;
   color: var(--primary-color);
+  font-style: italic;
+  text-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
   display: flex;
+  justify-content: space-between;
   align-items: center;
   flex-direction: row;
-  padding: 10px 10% 0px 10%;
+  padding: 10px 10px 20px 10px;
   margin: 0 10%;
 }
 

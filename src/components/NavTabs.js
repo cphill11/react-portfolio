@@ -23,7 +23,7 @@ function NavTabs({ currentPage, handlePageChange }) {
               currentPage === "Resume" ? "nav-link active" : "nav-link"
             }
           >
-            Coding
+            Stack
           </a>
         </li>
 

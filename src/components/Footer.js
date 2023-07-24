@@ -14,7 +14,7 @@ function Footer() {
       <br></br>
       <li>
         <a href="https://github.com/cphill11" className="gitHub">
-          GitHub Repositories
+          Public GitHub Repositories
         </a>
       </li>
       <br></br>
