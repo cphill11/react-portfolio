@@ -30,8 +30,6 @@ function Portfolio(props) {
             image={randomPswdGenImg}
             href="https://github.com/cphill11/random-password-generator/blob/main/README.md"
           />
-    
-
         </div>
         <div className="SplitPane-Right">
           {" "}
