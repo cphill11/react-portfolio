@@ -13,7 +13,7 @@ function Resume() {
           <li>IDE:IntelliJ and Visual Studio Code</li>
           <li>MERN Stack: MongoDB, React.js, Express.JS, Node.js</li>
           <li>Object-Oriented Programming: Java, JavaScript</li>
-          <li>HTML / CSS / Bootstrap / Bulma</li>
+          <li>HTML / CSS / Flexbox </li>
           <li>SQL / SQL Workbench / Mongoose</li>
           <li>RESTful APIs</li>
           <li>Kanbans: Jira and GitHub</li>
