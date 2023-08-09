@@ -1,6 +1,7 @@
 import React from "react";
 // define the src for the image at top of page
 import professionalImage from "../assets/images/professional-image.jpg";
+import Footer from "./Footer";
 import "../index.css";
 import "../media-queries.css";
 
@@ -36,6 +37,7 @@ function About() {
           </p>
       </div>
       </div>
+      <Footer/>
     </section>
   );
 }

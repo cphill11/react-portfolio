@@ -5,7 +5,7 @@ import "../media-queries.css";
 
 function Ancillary() {
   return (
-    <section>
+    <section class="ancillarySection">
       <h1 id="ancillary">Ancillary Skillset</h1>
       <div id="skillset">
         <ul>

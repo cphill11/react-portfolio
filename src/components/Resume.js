@@ -5,7 +5,7 @@ import "../media-queries.css";
 
 function Resume() {
   return (
-    <section>
+    <section class="stackSection">
       <h1 id="resume">Coding Stack Overview</h1>
       <div id="skillset">
      

@@ -3,10 +3,10 @@ import Project from "./Project";
 import keepingTallyImg from "../assets/images/keepingTally.jpg";
 import familyPetImg from "../assets/images/familyPets.jpg";
 import randomPswdGenImg from "../assets/images/randomPswdGen.jpg";
-import Footer from "./Footer";
+
 function Portfolio(props) {
   return (
-    <div>
+    <section class="portfolioSection">
       <h1 id="portfolio">
         Portfolio Display: Click on Image to open link to informative Repository README.md file
       </h1>
@@ -43,8 +43,8 @@ function Portfolio(props) {
         </div>
       </div>
       </div>
-      <Footer/>
-    </div>
+    </section>
+    
   );
 }
 export default Portfolio;

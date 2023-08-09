@@ -162,7 +162,7 @@ button[disabled] {
 }
 .aboutSection {
   padding: 0;
-  height: 900px;
+  height: 100vh;
 }
 
 #aboutPhoto {
@@ -222,11 +222,11 @@ img {
   padding: 1% 0% 1% 0%;
   background-color:rgb(235, 230, 226);
   margin: 0 0px;
-  height: 60vh;
+  height: 100%;
 }
 .projects {
   width: 25%;
-  height: 190px;
+  height: 100%;
   padding: 10px;
   border: 1px solid;
   border-color: rgb(109, 111, 114);
@@ -295,7 +295,6 @@ nav li {
 
 footer {
   background: linear-gradient(to right, rgb(69, 80, 126), rgb(29, 20, 50));
-  position: relative;
   position: absolute;
   display: flex;
   flex-direction: column;

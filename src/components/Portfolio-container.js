@@ -4,7 +4,7 @@ import Resume from "./Resume";
 import Portfolio from "./Portfolio";
 import Ancillary from "./Ancillary";
 import NavTabs from "./NavTabs";
-import Footer from "./Footer";
+// import Footer from "./Footer";
 import Header from "./Header";
 
 export default function PortfolioContainer() {
@@ -34,7 +34,7 @@ export default function PortfolioContainer() {
       {/* // handlePageChange fxns as a way to change the current page state variable */}
       <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} />
       {renderPage()}
-      <Footer />
+      {/* <Footer /> */}
     </div>
   );
 }
