@@ -8,7 +8,7 @@ function Portfolio(props) {
   return (
     <section class="portfolioSection">
       <h1 id="portfolio">
-        Portfolio Display: Click on Image to open link to informative Repository README.md file
+        Portfolio Display: Click on Image to open link for informative Repository README.md file to recent work
       </h1>
       <div id="backing">
       <div className="SplitPane">
