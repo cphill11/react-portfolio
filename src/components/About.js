@@ -24,7 +24,7 @@ function About() {
           Junior Developer building professional and technical experience after completion of Case Western Reserve University's Full Stack Web Development program. Completed immersive Java Coding Bootcamp with Southern Methodist University.  Currently employed as General Office Manager for Phillips Technology Group, a family-owned small business. 
          </p>   
          <p> 
-          Well educated.  Graduating from Johns Hopkins University, Carey School of Business with M.S. Healthcare Management in December of 2023. Enrolled in accelerated B.S. Software Engineering program at Western Governor's University, to start after completion of M.S. program at JHU.
+          Well educated.  Graduating from Johns Hopkins University, Carey School of Business with M.S. Healthcare Management in December of 2023. Enrolled in accelerated B.S. Software Engineering program at Western Governor's University, to start Fall 2023.
           </p>
          <p>
           Cleveland, Ohio resident who enjoys remote work. General Office Manager for Phillips Technology Group but excited for opportunity to work as software developer outside of family business. 
