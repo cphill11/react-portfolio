@@ -2,11 +2,12 @@ import React from "react";
 // define the src for the image at top of page
 import professionalImage from "../assets/images/professional-image.jpg";
 import islandImage from "../assets/images/nz.jpg";
+import pdf from "../assets/small/resume.pdf";
 // import Footer from "./Footer";
 import "../index.css";
 import "../media-queries.css";
 
-function About() {
+function About(props) {
   // JSX being returned to represent HTML in JS
   return (
     // class my-5 = (m) margin (y) top & bottom - (5) $spacer-y * 3
@@ -38,12 +39,31 @@ function About() {
           International traveler, with visits to both Scotland and New Zealand.  The image at the top of the page is of the Mt. Paku Summit, taken from the beach just north of Pauanui in New Zealand.  Image has been elongated from original size.  Original is posted below. 
           </p>
 
+      <div className="SplitPane">
+      {" "}
+        {props.right}
+        <div className="SplitPane-Right">   
           <img
           src={islandImage}
           className="islandPhoto"
           // style={{ width: "25" }}
-          alt="extinct volcano as viewed from ocean beach"
-        />
+          alt="extinct volcano as viewed from ocean beach"/>
+      </div>
+    </div>
+      
+      
+      
+      
+      
+      <div className="SplitPane-Left">
+      {" "}
+        {props.left}  
+     <div id="pdf">
+        <a href={pdf} className="my-4" target="_blank" rel="noreferrer">
+          Downloadable Resume PDF
+        </a>
+      </div>
+      </div>
       </div>
       </div>
       </div>

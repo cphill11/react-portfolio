@@ -1,5 +1,4 @@
 import React from "react";
-import pdf from "../assets/small/resume.pdf";
 import "../index.css";
 import "../media-queries.css";
 
@@ -10,17 +9,18 @@ function Stack(props) {
       <div id="backing">
         <div id="skillset">
       <div className="SplitPane">
-      {" "}
-        {props.left}
-        <div className="SplitPane-Left">   
+        <div className="SplitPane-Left"> 
+        {" "}
+        {props.left}  
         <ul>
-          <li>IDE:IntelliJ and Visual Studio Code</li>
+          <li>IDE: IntelliJ, Visual Studio Code</li>
           <li>MERN Stack: MongoDB, React.js, Express.JS, Node.js</li>
           <li>Object-Oriented Programming: Java, JavaScript</li>
           <li>HTML5 / CSS / Flexbox </li>
           <li>SQL / MySQL / MySQL Workbench</li>
           <li>RESTful APIs</li>
           <li>Kanbans: Jira and GitHub</li>
+          <li>Insomnia</li>
         
         </ul>
         </div>
@@ -39,11 +39,7 @@ function Stack(props) {
         </div>
         </div>
         </div>
-        <div id="pdf">
-        <a href={pdf} className="my-4" target="_blank" rel="noreferrer">
-          Resume Downloadable as PDF
-        </a>
-      </div>
+        
     </div>
    </section>
   );

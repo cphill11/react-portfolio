@@ -18,6 +18,7 @@ export default function PortfolioContainer() {
     if (currentPage === "Stack") {
       return <Stack/>;
     }
+    // portfolio renamed to projects
     if (currentPage === "Portfolio") {
       return <Portfolio />;
     }
