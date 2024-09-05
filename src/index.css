@@ -152,7 +152,7 @@ button[disabled] {
 }
 
 #about,
-#resume,
+#stack,
 #ancillary,
 #portfolio {
   text-align: left;
@@ -192,6 +192,7 @@ button[disabled] {
 }
 
 #pdf {
+  margin: 0 25% 0 35%;
   font-size: 30px;
   color: #38356c;
   text-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
@@ -207,6 +208,15 @@ button[disabled] {
   height: 300px;
   margin-left: 50px;
 }
+
+.islandPhoto {
+  display: flex;
+  height: 300px;
+  margin-top: 50px;
+  margin-left: 250px;
+  width: 30%;
+}
+
 img {
   justify-content: center;
   padding: 10px;

@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import About from "./About";
-import Resume from "./Resume";
+import Stack from "./Stack";
 import Portfolio from "./Portfolio";
 import Ancillary from "./Ancillary";
 import NavTabs from "./NavTabs";
@@ -15,8 +15,8 @@ export default function PortfolioContainer() {
     if (currentPage === "About") {
       return <About />;
     }
-    if (currentPage === "Resume") {
-      return <Resume />;
+    if (currentPage === "Stack") {
+      return <Stack/>;
     }
     if (currentPage === "Portfolio") {
       return <Portfolio />;
