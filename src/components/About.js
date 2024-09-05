@@ -21,16 +21,16 @@ function About() {
         />
       <div id="summary">
         <p>
-          Junior Developer building professional and technical experience after completion of Case Western Reserve University's Full Stack Web Development program. Completed immersive Java Coding Bootcamp with Southern Methodist University.  Currently employed as General Office Manager for Phillips Technology Group, a family-owned small business. 
+          Software Engineer Student.  Currently building professional and technical experience after completion of Case Western Reserve University's Full Stack Web Development program. Completed immersive Java Coding Bootcamp with Southern Methodist University.  Currently employed as General Office Manager for Phillips Technology Group, a family-owned small business. 
          </p>   
          <p> 
-          Well educated.  Completed M.S. Healthcare Management at Johns Hopkins Carey School of Business in October o 2023. Enrolled in accelerated B.S. Software Engineering program at Western Governor's University, expected to complete in Fall 2025.
+          Well educated.  Completed M.S. Healthcare Management at Johns Hopkins Carey School of Business in December of 2023. Enrolled in accelerated B.S. Software Engineering program at Western Governor's University, expected to complete in Fall 2026.
           </p>
          <p>
           Cleveland, Ohio resident who enjoys remote work and is excited for opportunity to work as software developer outside of family business. 
           </p>
           <p>
-          Career changer. Transitioned from Critical Care after over 15 years of working in large medical facilities at end of COVID wave in 2021 to Technology field with advent of first coding bootcamp. 
+          Career changer. Transitioned from Critical Care at end of COVID wave in 2021 to Technology field with advent of first coding bootcamp. 
           </p>
           <p>
           International traveler, with visits to both Scotland and New Zealand.  Ready to explore future travel endeavors.

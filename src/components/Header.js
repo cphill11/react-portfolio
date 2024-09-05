@@ -7,7 +7,7 @@ function Header(props) {
   return (
     <header>
       <img src={nzImg} alt="" />
-      <h2> Criste L. Phillips, B.S.</h2>
+      <h2> Criste L. Phillips, M.S.</h2>
     </header>
   );
 }
