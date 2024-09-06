@@ -8,9 +8,8 @@ function Portfolio(props) {
   return (
     <section class="portfolioSection">
       <h1 id="portfolio">
-        Portfolio Display: Click on Image to open link for informative Repository README.md file to recent work
-      </h1>
-      <div id="backing">
+        Portfolio Display: Images are hyperlinks to repo README.md files</h1>
+  
       <div className="SplitPane">
         {" "}
         {props.left}
@@ -41,7 +40,6 @@ function Portfolio(props) {
             href="https://github.com/cphill11/keeping-tally/blob/main/README.md"
           />        
         </div>
-      </div>
       </div>
     </section>
     

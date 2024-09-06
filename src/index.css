@@ -224,11 +224,25 @@ img {
   padding: 10px;
   border: 2px solid;
   border-color: rgb(109, 111, 114);
+  /* background-color: #7480ad; */
   border-radius: 15px;
   -webkit-box-shadow: 7px 7px 5px 0px  rgb(109, 111, 114);
   -moz-box-shadow: 7px 7px 5px 0px rgba(50, 50, 50, 0.75);
   box-shadow: 7px 7px 5px 0px rgba(50, 50, 50, 0.75);
 }
+
+#aboutPhoto img {
+  justify-content: center;
+  padding: 10px;
+  border: 2px solid;
+  border-color: rgb(109, 111, 114);
+  background-color: #9b9da3;
+  border-radius: 15px;
+  -webkit-box-shadow: 7px 7px 5px 0px  rgb(109, 111, 114);
+  -moz-box-shadow: 7px 7px 5px 0px rgba(50, 50, 50, 0.75);
+  box-shadow: 7px 7px 5px 0px rgba(50, 50, 50, 0.75);
+}
+
 
 #backing {
   padding: 1% 0% 1% 0%;
