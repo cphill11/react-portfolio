@@ -47,7 +47,7 @@ function NavTabs({ currentPage, handlePageChange }) {
               currentPage === "Ancillary" ? "nav-link active" : "nav-link"
             }
           >
-            Ancillary 
+            Auxiliary 
           </a>
         </li>
       </ul>

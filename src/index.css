@@ -189,6 +189,8 @@ button[disabled] {
   text-shadow: 10px 10px 20px rgba(53, 52, 52, 0.5);
   margin-bottom: 10px;
   display: vertical;
+  
+  
 }
 
 #pdf {
@@ -230,11 +232,11 @@ img {
 
 #backing {
   padding: 1% 0% 1% 0%;
-  /* background-color:rgb(235, 230, 226); */
-  background: linear-gradient(#ebe6e2,#ebe6e2, #ebe6e2, #45507e);
+  background: linear-gradient(#ebe6e2,#ebe6e2, #ebe6e2, #ebe6e2, #45507e);
   /* margin: 0 0px; */
   height: 100%;
 }
+
 .projects {
   width: 25%;
   height: 100%;
@@ -247,6 +249,7 @@ img {
   box-shadow: 7px 7px 5px 0px rgba(50, 50, 50, 0.75);
 }
 
+
 .SplitPane img {
   height: 200px;
   width: 375px;
@@ -256,27 +259,37 @@ img {
 .SplitPane-Left {
   float: left;
   width: 50%;
-  height: 75%;
+  height: 100%;
   text-align: center;
   padding: 3% 0% 3% 0%;
-  font-style: italic;
+   font-style: italic;
+  color: rgb(63, 63, 140);
+
+}
+
+.SplitPane-Left-PDF {
+  float: left;
+  width: 50%;
+   text-align: center;
+  padding: 3% 0% 3% 0%;
+   font-style: italic;
   color: rgb(63, 63, 140);
 }
 
-.SplitPane-Mid {
-  float: right;
-  width: 50%;
-  height: 75%;
-  text-align: center;
-  padding: 3% 0% 3% 0%;
-  font-style: italic;
-  color: rgb(63, 63, 140);
-}
 
 .SplitPane-Right {
   float: right;
   width: 50%;
-  height: 75%;
+  height: 600px;
+  text-align: center;
+  padding: 3% 10% 3% 0%;
+  font-style: italic;
+  color: rgb(63, 63, 140);
+}
+
+.SplitPane-Right-Photo{
+  float: right;
+  width: 50%;
   text-align: center;
   padding: 3% 0% 3% 0%;
   font-style: italic;
