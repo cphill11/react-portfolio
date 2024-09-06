@@ -22,8 +22,7 @@ function About(props) {
           />
           <div id="summary">
             <p>
-              Software Engineer Student on Java track, attending Western
-              Governor's University with expected 2026 graduation. Recently
+              WGU Software Engineer Student with 2+ years personal experience with development.  Expected 2026 graduation with B.S. degree.  Recently
               certified as AWS Certified Cloud Practitioner.
             </p>
             <p>
@@ -46,6 +45,7 @@ function About(props) {
               Image has been elongated from original size. Original is posted
               below.
             </p>
+            <p>Please see utilize Downloadable Resume PDF hyperlink for contact information.</p>
 
             <div className="SplitPane">
               {" "}
