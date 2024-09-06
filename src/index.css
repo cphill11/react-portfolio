@@ -9,7 +9,7 @@
   --light: #fafafa;
   --dark: #000000;
   --darker: #111111;
-  --error: rgb(228, 46, 1);
+  /* --error: rgb(228, 46, 1); */
   --spacing-one: calc(1rem * 0.5);
   --spacing-two: calc(1rem);
   --spacing-five: calc(2.5rem);
@@ -256,13 +256,13 @@ img {
   height: 100%;
   padding: 10px;
   border: 1px solid;
-  border-color: rgb(109, 111, 114);
+  border-color: #cdc4c2;
+  background-color: #cdc4c2;
   border-radius: 15px;
   -webkit-box-shadow: 7px 7px 5px 0px rgba(50, 50, 50, 0.75);
   -moz-box-shadow: 7px 7px 5px 0px rgba(50, 50, 50, 0.75);
   box-shadow: 7px 7px 5px 0px rgba(50, 50, 50, 0.75);
 }
-
 
 .SplitPane img {
   height: 200px;
@@ -278,8 +278,23 @@ img {
   padding: 3% 0% 3% 0%;
    font-style: italic;
   color: rgb(63, 63, 140);
-
 }
+
+
+/* play with subtitle if able */
+.SplitPane-Left-Projects {
+  float: left;
+  width: 50%;
+  height: 100%;
+  text-align: center;
+  padding: 3% 0% 3% 0%;
+  font-style: italic;
+  color: rgb(63, 63, 140);
+}
+
+
+
+
 
 .SplitPane-Left-PDF {
   float: left;
@@ -331,7 +346,7 @@ nav li {
   cursor: pointer;
 }
 
-footer {
+/* footer {
   background: linear-gradient(to right, rgb(69, 80, 126), rgb(29, 20, 50));
   position: absolute;
   display: flex;
@@ -359,7 +374,7 @@ footer li {
   margin: 0 10 0 10px;
   justify-content: space-between;
   padding: 2% 5% 3% 10%;
-}
+} */
 
 .container {
   width: 85%;

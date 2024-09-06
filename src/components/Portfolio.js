@@ -16,12 +16,12 @@ function Portfolio(props) {
       </h1>
 
       <div className="SplitPane">
-        <div className="SplitPane-Left">
+        <div className="SplitPane-Left-Projects">
           {" "}
           {props.left}
-          <Project
+                   <Project
             title="Great Reads"
-            subtitle="Social App"
+            subtitle="Social App" 
             image={greatReadsImg}
             href="https://github.com/cphill11/great-reads/blob/main/README.md"
           />{" "}
@@ -35,11 +35,12 @@ function Portfolio(props) {
           {props.left}
           <Project
             title="Comics and Cocktails"
-            subtitle="Reliable Passwords"
+            subtitle="Random Drinks and Giggles"
             image={comicsImg}
             href="https://github.com/perfect-perfect/comics-and-cocktails/blob/main/README.md"
           />
         </div>
+  
         <div className="SplitPane-Right">
         {" "}
           {props.right}
