@@ -40,7 +40,7 @@ Deployed Link: https://clp-react-portfolio.herokuapp.com/
 
 ## Image
 
-![Screenshot](/src/assets/images/screenshot.png)
+![Screenshot](/src/assets/images/screenshot.jpg)
 
 ## Credits:
 

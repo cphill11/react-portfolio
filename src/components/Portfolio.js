@@ -1,12 +1,12 @@
 import React from "react";
 import Project from "./Project";
 import keepingTallyImg from "../assets/images/keepingTally.jpg";
-import familyPetImg from "../assets/images/familyPets.png";
+import familyPetImg from "../assets/images/familyPets.jpg";
 import randomPswdGenImg from "../assets/images/randomPswdGen.jpg";
 import greatReadsImg from "../assets/images/great-reads.jpg";
-import fetchImg from "../assets/images/fetch.png";
-import comicsImg from "../assets/images/comics.png";
-import hellkittyImg from "../assets/images/hellkitty.png";
+import fetchImg from "../assets/images/fetch.jpg";
+import comicsImg from "../assets/images/comics.jpg";
+import hellkittyImg from "../assets/images/hellkitty.jpg";
 
 function Portfolio(props) {
   return (
@@ -30,7 +30,7 @@ function Portfolio(props) {
             title="Fetch"
             subtitle="Social App"
             image={fetchImg}
-            href="https://github.com/cphill11/fetching/blob/main/README.md"
+           href="https://github.com/cphill11/fetching/blob/main/README.md" 
           />{" "}
           {props.left}
           <Project
