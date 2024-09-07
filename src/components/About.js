@@ -4,7 +4,7 @@ import islandImage from "../assets/images/nz.jpg";
 import pdf from "../assets/small/resume.pdf";
 import '../index.css';
 import '../media-queries.css';
-import '../header-footer-media-queries.css';
+// import '../header-footer-media-queries.css';
 
 function About(props) {
   // JSX being returned to represent HTML in JS

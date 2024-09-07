@@ -48,10 +48,10 @@
   @media screen and (max-width: 480px) {
  
 
-    .header {
+    /* .header {
       float: none;
       width: 100%;
-    }
+    } */
   
     .footer {
       float: none;
