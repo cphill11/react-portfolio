@@ -4,11 +4,11 @@
 
 :root {
   --primary-color: #928d8d;
-  --secondary-color: #0a3247;
+  /* --secondary-color: #0a3247;
   --tertiary-color: #2f2d8f;
   --light: #fafafa;
   --dark: #000000;
-  --darker: #111111;
+  --darker: #111111; */
   /* --error: rgb(228, 46, 1); */
   --spacing-one: calc(1rem * 0.5);
   --spacing-two: calc(1rem);
@@ -177,7 +177,7 @@ button[disabled] {
   justify-content: space-between;
   align-items: stretch;
   padding: 3% 3% 0% 2%;
-  height: 100vh;
+  height: 101vh;
 }
 
 #summary {
@@ -196,8 +196,6 @@ button[disabled] {
   text-shadow: 10px 10px 20px rgba(53, 52, 52, 0.5);
   margin-bottom: 10px;
   display: vertical;
-  
-  
 }
 
 #pdf {
@@ -251,12 +249,12 @@ img {
 }
 
 
-#backing {
+/* #backing {
   padding: 1% 0% 1% 0%;
   background: linear-gradient(#ebe6e2,#ebe6e2, #ebe6e2, #ebe6e2, #45507e);
-   /* margin: 0 0px;*/
+   margin: 0 0px;
   height: 100%;
-}
+} */
 
 .projects {
   width: 25%;
@@ -280,7 +278,7 @@ img {
 .SplitPane-Left {
   float: left;
   width: 50%;
-  height: 100%;
+  height: 100vh;
   text-align: center;
   padding: 3% 0% 3% 0%;
    font-style: italic;
@@ -313,7 +311,7 @@ img {
 .SplitPane-Right {
   float: right;
   width: 50%;
-  height: 600px;
+  height: 100vh;
   text-align: center;
   padding: 3% 10% 3% 0%;
   font-style: italic;
@@ -350,40 +348,10 @@ nav li {
   cursor: pointer;
 }
 
-/* footer {
-  background: linear-gradient(to right, rgb(69, 80, 126), rgb(29, 20, 50));
-  position: absolute;
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-  height: 190px;
-}
-
-footer section {
-  font-weight: 100;
-  font-size: 35px;
-  color: var(--primary-color);
-  font-style: italic;
-  text-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-direction: row;
-  padding: 10px 10px 20px 10px;
-  margin: 0 10%;
-}
-
-footer li {
-  display: inline;
-  margin: 0 10 0 10px;
-  justify-content: space-between;
-  padding: 2% 5% 3% 10%;
-} */
-
-.container {
+/* .container {
   width: 85%;
-  max-width: 1200px;
-}
+  max-width: 100%;
+} */
 
 .flex-row {
   display: flex;
@@ -481,13 +449,13 @@ button {
   padding: 10px 15px;
 }
 
-a {
+/* a {
   border-radius: 5px;
   color: var(--primary);
   font-weight: 600;
   padding: 2px 4px;
-}
+} */
 
-.navActive {
+/* .navActive {
   color: var(--secondary);
-}
+} */

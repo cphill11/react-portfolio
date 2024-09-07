@@ -8,8 +8,8 @@ import fetchImg from "../assets/images/fetch.jpg";
 import comicsImg from "../assets/images/comics.jpg";
 import hellkittyImg from "../assets/images/hellkitty.jpg";
 import '../index.css';
-import '../media-queries.css';
-import '../header-footer-media-queries.css';
+// import '../media-queries.css';
+// import '../header-footer-media-queries.css';
 
 
 function Portfolio(props) {

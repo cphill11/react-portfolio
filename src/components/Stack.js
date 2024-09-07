@@ -1,7 +1,7 @@
 import React from "react";
 import "../index.css";
-import "../media-queries.css";
-import '../header-footer-media-queries.css';
+// import "../media-queries.css";
+// import '../header-footer-media-queries.css';
 
 function Stack(props) {
   return (

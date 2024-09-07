@@ -8,8 +8,8 @@ import NavTabs from "./NavTabs";
 import Header from "./Header";
 
 import '../index.css';
-import '../media-queries.css';
-import '../header-footer-media-queries.css';
+// import '../media-queries.css';
+// import '../header-footer-media-queries.css';
 
 export default function PortfolioContainer() {
   const [currentPage, setCurrentPage] = useState("About");
