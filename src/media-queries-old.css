@@ -1,0 +1,89 @@
+/* MEDIA QUERY FOR DESKTOP SCREENS AND SMALLER */
+/* @media only screen and (min-device-width: 1025px) and (max-device-width: 1600px) and (orientation: portrait) { */
+  /* .SplitPane {
+    height: 900px;
+    padding: 0 2% 0 2%;
+    font-size: 25px;
+    color: #3f3b3b;
+    margin-bottom: 100px;
+    display: flex;
+    flex-direction: row; 
+    background-color: rgb(148, 148, 198); 
+  }*/
+
+
+  /* .SplitPane img {
+    height: 130px;
+    width: 205px;
+    margin: 0.5rem 0.5rem 2.75rem 0.5rem;
+  } */
+
+  /* .SplitPane-Right-Photo img {
+    margin: 1rem 1rem 10rem 0.5rem;
+  } */
+
+/* } */
+
+/* MEDIA QUERY FOR SMALL SCREENS AND LAPTOPS */
+@media only screen and (min-device-width: 769px) and (max-device-width: 1024px) and (orientation: portrait) {
+    /* .SplitPane {
+      height: 900px;
+      padding: 0 2% 0 2%;
+      font-size: 25px;
+      color: #3f3b3b;
+      margin-bottom: 100px;
+      display: flex;
+      flex-direction: row;
+    } */
+  
+    .SplitPane img {
+      height: 130px;
+      width: 205px;
+      /* margin: 1rem 1rem 10rem 0.5rem; */
+    }
+  
+  }
+  
+  /* MEDIA QUERY FOR iPADS, TABLETS & SMALLER */
+  @media only screen and (min-width: 481px) and (max-width: 768px) {
+    /* .SplitPane {
+      height: 900px;
+      padding: 0 2% 0 2%;
+      font-size: 25px;
+      color: #3f3b3b;
+      margin-bottom: 100px;
+      display: flex;
+      flex-direction: row;
+    } */
+  
+    .SplitPane img {
+      height: 100px;
+      width: 125px;
+      margin: 1rem 1rem 10rem 0.5rem;
+      /* background-color: rgb(184, 104, 191); */
+    }
+  
+  }
+  
+  /* MEDIA QUERY FOR MOBILE DEVICES */
+  @media screen and (max-width: 480px) {
+  body {
+    background: linear-gradient(#ebe6e2,#ebe6e2, #ebe6e2, #ebe6e2, #45507e);
+  }
+    /* .SplitPane {
+      height: 900px;
+      padding: 0 2% 0 2%;
+      font-size: 25px;
+      color: #3f3b3b;
+      margin-bottom: 100px;
+      display: flex;
+      flex-direction: row;
+    } */
+    .SplitPane img {
+      height: 100px;
+      width: 125px;
+      margin: 1rem 1rem 10rem 0.5rem;
+      /* background-color: rgb(104, 191, 146); */
+    }
+  }
+  

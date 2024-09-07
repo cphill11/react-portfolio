@@ -1,135 +1,143 @@
-/* MEDIA QUERY FOR DESKTOP SCREENS AND SMALLER */
-@media only screen and (min-device-width: 1025px) and (max-device-width: 1200px) and (orientation: portrait) {
-  .SplitPane {
-    height: 900px;
-    padding: 0 2% 0 2%;
-    font-size: 25px;
-    color: #3f3b3b;
-    margin-bottom: 100px;
-    display: flex;
-    flex-direction: row;
-    /* background-color: rgb(148, 148, 198); */
-  }
+/* MEDIA QUERIES FOR LAPTOPS */
+/* --- Non-Retina Screens --- */
+@media screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 1) {
 
-
-  .SplitPane img {
+  /* .SplitPane img {
     height: 130px;
     width: 205px;
-    margin: 1rem 1rem 10rem 0.5rem;
-  }
-
-  .SplitPane-Right-Photo img {
-    margin: 1rem 1rem 10rem 0.5rem;
-  }
-
-  /* .header {
-    float: none;
-    width: 100%;
+    margin: 0.5rem 0.5rem 2.75rem 0.5rem;
   } */
-/* 
-  .footer {
-    float: none;
-    width: 100%;
-    height: 100%;
-    position: fixed;
-  } */
-}
-
-/* MEDIA QUERY FOR SMALL SCREENS AND LAPTOPS */
-@media only screen and (min-device-width: 769px) and (max-device-width: 1024px) and (orientation: portrait) {
-  .SplitPane {
-    height: 900px;
-    padding: 0 2% 0 2%;
-    font-size: 25px;
-    color: #3f3b3b;
-    margin-bottom: 100px;
-    display: flex;
-    flex-direction: row;
-  }
-
-  .SplitPane img {
+}  
+  
+/* --- Retina Screens --- */
+@media screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 2) and (min-resolution: 192dpi) { 
+  /* .SplitPane img {
     height: 130px;
     width: 205px;
-    margin: 1rem 1rem 10rem 0.5rem;
-  }
-  /* .header {
-    float: none;
-    width: 100%;
-  }
-
-  .footer {
-    float: none;
-    width: 100%;
-    position: fixed;
+    margin: 0.5rem 0.5rem 2.75rem 0.5rem;
   } */
 }
 
-/* MEDIA QUERY FOR iPADS, TABLETS & SMALLER */
-@media only screen and (min-width: 481px) and (max-width: 768px) {
-  .SplitPane {
-    height: 900px;
-    padding: 0 2% 0 2%;
-    font-size: 25px;
-    color: #3f3b3b;
-    margin-bottom: 100px;
-    display: flex;
-    flex-direction: row;
-  }
+/* MEDIA QUERIES FOR TABLETS*/
+/* Portrait and Landscape */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px)and (-webkit-min-device-pixel-ratio: 1) {
 
-  .SplitPane img {
-    height: 100px;
-    width: 125px;
-    margin: 1rem 1rem 10rem 0.5rem;
-    /* background-color: rgb(184, 104, 191); */
-  }
-  /* .header {
-    float: none;
-    width: 100%;
-  }
-
-  .footer {
-    float: none;
-    width: 100%;
-    position: fixed;
-  } */
 }
 
-/* MEDIA QUERY FOR MOBILE DEVICES */
-@media screen and (max-width: 480px) {
-body {
-  background: linear-gradient(#ebe6e2,#ebe6e2, #ebe6e2, #ebe6e2, #45507e);
-}
-  .SplitPane {
-    height: 900px;
-    padding: 0 2% 0 2%;
-    font-size: 25px;
-    color: #3f3b3b;
-    margin-bottom: 100px;
-    display: flex;
-    flex-direction: row;
-  }
-  .SplitPane img {
-    height: 100px;
-    width: 125px;
-    margin: 1rem 1rem 10rem 0.5rem;
-    /* background-color: rgb(104, 191, 146); */
-  }
-/* 
-  #backing {
-    padding: 1% 0% 1% 0%;
-    background: linear-gradient(#ebe6e2,#ebe6e2, #ebe6e2, #ebe6e2, #45507e);
-    margin: 0 0px;
-    height: 100%;
-  } */
-/* 
-  .header {
-    float: none;
-    width: 100%;
-  }
+/* Portrait */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) {
 
-  .footer {
-    float: none;
-    width: 100%;
-    position: fixed;
-  } */
+}
+
+/* Landscape */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 1) {
+
+}
+
+/* ----------- iPad 3, 4 and Pro 9.7" ----------- */
+
+/* Portrait and Landscape */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 2) {
+
+}
+
+/* Portrait */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
+
+}
+
+/* Landscape */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {
+
+}
+
+/* ----------- iPad Pro 10.5" ----------- */
+
+/* Portrait and Landscape */
+@media only screen and (min-device-width: 834px) and (max-device-width: 1112px) and (-webkit-min-device-pixel-ratio: 2) {
+
+}
+
+/* Portrait */
+/* Declare the same value for min- and max-width to avoid colliding with desktops */
+/* Source: https://medium.com/connect-the-dots/css-media-queries-for-ipad-pro-8cad10e17106*/
+@media only screen and (min-device-width: 834px) and (max-device-width: 834px) and (orientation: portrait)and (-webkit-min-device-pixel-ratio: 2) {
+
+}
+
+/* Landscape */
+/* Declare the same value for min- and max-width to avoid colliding with desktops */
+/* Source: https://medium.com/connect-the-dots/css-media-queries-for-ipad-pro-8cad10e17106*/
+@media only screen and (min-device-width: 1112px) and (max-device-width: 1112px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {
+
+}
+
+/* ----------- iPad Pro 12.9" ----------- */
+
+/* Portrait and Landscape */
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 2) {
+
+}
+
+/* Portrait */
+/* Declare the same value for min- and max-width to avoid colliding with desktops */
+/* Source: https://medium.com/connect-the-dots/css-media-queries-for-ipad-pro-8cad10e17106*/
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
+
+}
+
+/* Landscape */
+/* Declare the same value for min- and max-width to avoid colliding with desktops */
+/* Source: https://medium.com/connect-the-dots/css-media-queries-for-ipad-pro-8cad10e17106*/
+@media only screen and (min-device-width: 1366px) and (max-device-width: 1366px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {
+
+}
+
+/* ----------- Galaxy Tab 2 ----------- */
+
+/* Portrait and Landscape */
+@media 
+  (min-device-width: 800px) 
+  and (max-device-width: 1280px) {
+
+}
+
+/* Portrait */
+@media 
+  (max-device-width: 800px) 
+  and (orientation: portrait) { 
+
+}
+
+/* Landscape */
+@media 
+  (max-device-width: 1280px) 
+  and (orientation: landscape) { 
+
+}
+
+/* ----------- Galaxy Tab S ----------- */
+
+/* Portrait and Landscape */
+@media 
+  (min-device-width: 800px) 
+  and (max-device-width: 1280px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+}
+
+/* Portrait */
+@media 
+  (max-device-width: 800px) 
+  and (orientation: portrait)
+  and (-webkit-min-device-pixel-ratio: 2) { 
+
+}
+
+/* Landscape */
+@media 
+  (max-device-width: 1280px) 
+  and (orientation: landscape)
+  and (-webkit-min-device-pixel-ratio: 2) { 
+
 }
