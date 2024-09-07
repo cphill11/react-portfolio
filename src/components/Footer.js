@@ -1,7 +1,7 @@
 import React from "react";
 import '../index.css';
 import '../media-queries.css';
-
+import '../header-footer-media-queries.css';
 function Footer() {
   return (
     <footer>
@@ -19,7 +19,7 @@ function Footer() {
       </li>
       <br></br>
       <li>
-        <a href="mailto:criste.phillips@phillipstechnologygroup.com?">
+        <a href="mailto:cristephillips@gmail.com">
           Email
         </a>
       </li>

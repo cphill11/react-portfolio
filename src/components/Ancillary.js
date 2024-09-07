@@ -1,7 +1,8 @@
 // Auxiliary information as supplement to resume
 import React from "react";
-import "../index.css";
-import "../media-queries.css";
+import '../index.css';
+import '../media-queries.css';
+import '../header-footer-media-queries.css';
 
 function Ancillary(props) {
   return (

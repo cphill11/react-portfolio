@@ -7,21 +7,24 @@ import greatReadsImg from "../assets/images/great-reads.jpg";
 import fetchImg from "../assets/images/fetch.jpg";
 import comicsImg from "../assets/images/comics.jpg";
 import hellkittyImg from "../assets/images/hellkitty.jpg";
+import '../index.css';
+import '../media-queries.css';
+import '../header-footer-media-queries.css';
+
 
 function Portfolio(props) {
   return (
     <section class="portfolioSection">
-      <h1 id="portfolio">
-        Portfolio Display: Images are hyperlinks to repo README.md files
+      <h1 id="portfolio">Portfolio Display: Images are hyperlinks to repo README.md files
       </h1>
 
-      <div className="SplitPane">
+        <div className="SplitPane">
         <div className="SplitPane-Left-Projects">
           {" "}
           {props.left}
-                   <Project
+          <Project
             title="Great Reads"
-            subtitle="Social App" 
+            subtitle="Social App"
             image={greatReadsImg}
             href="https://github.com/cphill11/great-reads/blob/main/README.md"
           />{" "}
@@ -30,7 +33,7 @@ function Portfolio(props) {
             title="Fetch"
             subtitle="Social App"
             image={fetchImg}
-           href="https://github.com/cphill11/fetching/blob/main/README.md" 
+            href="https://github.com/cphill11/fetching/blob/main/README.md"
           />{" "}
           {props.left}
           <Project
@@ -40,25 +43,23 @@ function Portfolio(props) {
             href="https://github.com/perfect-perfect/comics-and-cocktails/blob/main/README.md"
           />
         </div>
-  
+
         <div className="SplitPane-Right">
-        {" "}
+          {" "}
           {props.right}
           <Project
             title="Hellkitty3D"
             subtitle="Digital 3D Art Gallery"
             image={hellkittyImg}
             href="https://github.com/cphill11/hellkitty3d/blob/main/README.md"
-          />
-          {" "}
+          />{" "}
           {props.right}
           <Project
             title="Family Pets"
             subtitle="Social App"
             image={familyPetImg}
             href="https://github.com/cphill11/family-pets/blob/main/README.md"
-          />
-          {" "}
+          />{" "}
           {props.right}
           <Project
             title="Keeping Tally"
@@ -75,6 +76,7 @@ function Portfolio(props) {
           />
         </div>
       </div>
+  
     </section>
   );
 }

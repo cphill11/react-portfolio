@@ -15,6 +15,13 @@
   --spacing-five: calc(2.5rem);
 }
 
+#root {
+  background: linear-gradient(#ebe6e2,#ebe6e2, #ebe6e2, #ebe6e2, #45507e);
+  min-height: 100%;
+}
+
+
+
 main {
   margin: 0 auto;
   max-width: 100%;
@@ -247,7 +254,7 @@ img {
 #backing {
   padding: 1% 0% 1% 0%;
   background: linear-gradient(#ebe6e2,#ebe6e2, #ebe6e2, #ebe6e2, #45507e);
-  /* margin: 0 0px; */
+   /* margin: 0 0px;*/
   height: 100%;
 }
 
@@ -291,9 +298,6 @@ img {
   font-style: italic;
   color: rgb(63, 63, 140);
 }
-
-
-
 
 
 .SplitPane-Left-PDF {

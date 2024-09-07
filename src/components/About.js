@@ -2,8 +2,9 @@ import React from "react";
 import professionalImage from "../assets/images/professional-image.jpg";
 import islandImage from "../assets/images/nz.jpg";
 import pdf from "../assets/small/resume.pdf";
-import "../index.css";
-import "../media-queries.css";
+import '../index.css';
+import '../media-queries.css';
+import '../header-footer-media-queries.css';
 
 function About(props) {
   // JSX being returned to represent HTML in JS
@@ -11,7 +12,7 @@ function About(props) {
     // class my-5 = (m) margin (y) top & bottom - (5) $spacer-y * 3
     <section className="aboutSection">
       <h1 id="about">About Me</h1>
-      <div id="backing">
+      {/* <div id="backing"> */}
         <div id="aboutPhoto">
           {/* Recent photo and short bio */}
           <img
@@ -45,7 +46,7 @@ function About(props) {
               Image has been elongated from original size. Original is posted
               below.
             </p>
-            <p>Please see utilize Downloadable Resume PDF hyperlink for contact information.</p>
+            <p>Please utilize Downloadable Resume PDF hyperlink for contact information.</p>
 
             <div className="SplitPane">
               {" "}
@@ -71,7 +72,7 @@ function About(props) {
             </div>
           </div>
         </div>
-      </div>
+      {/* </div> */}
     </section>
   );
 }
