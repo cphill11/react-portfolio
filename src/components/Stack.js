@@ -13,14 +13,14 @@ function Stack(props) {
             {" "}
             {props.left}
             <ul>
-              <li>IDE: IntelliJ, Visual Studio Code</li>
+              <li>IDE: IntelliJ, Visual Studio Code, R Studio</li>
               <li>MERN Stack: MongoDB, React.js, Express.JS, Node.js</li>
               <li>Object-Oriented Programming: Java, JavaScript</li>
               <li>HTML5 / CSS / Flexbox </li>
               <li>SQL / MySQL / MySQL Workbench</li>
-              <li>RESTful APIs</li>
-              <li>Kanbans: Jira and GitHub</li>
-            </ul>
+              <li>REST APIs</li>
+              <li>Insomnia</li>
+              </ul>
           </div>
 
           <div className="SplitPane-Right">
@@ -31,10 +31,9 @@ function Stack(props) {
               <li>CI/CD (Git)</li>
               <li>Docker Containers</li>
               <li>Heroku Deployment</li>
-              <li>HTML / CSS / Flexbox </li>
               <li>SQL / SQL Workbench / MySQL</li>
               <li>Spring Framework / Maven Projects</li>
-              <li>Insomnia</li>
+              <li>Kanbans: Jira and GitHub</li>
             </ul>
           </div>
         </div>
