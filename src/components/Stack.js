@@ -17,7 +17,6 @@ function Stack(props) {
               <li>MERN Stack: MongoDB, React.js, Express.JS, Node.js</li>
               <li>Object-Oriented Programming: Java, JavaScript</li>
               <li>HTML5 / CSS / Flexbox </li>
-              <li>SQL / MySQL / MySQL Workbench</li>
               <li>REST APIs</li>
               <li>Insomnia</li>
               </ul>
