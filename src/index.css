@@ -155,6 +155,14 @@ button[disabled] {
   opacity: 0.8;
 }
 
+footer section {
+  display: flex;
+  justify-content: space-around;
+  height: 100%;
+  width: 100%;
+  padding: 40px 25px;
+}
+
 #about,
 #stack,
 #ancillary,

@@ -4,12 +4,12 @@ import Stack from "./Stack";
 import Portfolio from "./Portfolio";
 import Ancillary from "./Ancillary";
 import NavTabs from "./NavTabs";
-// import Footer from "./Footer";
+import Footer from "./Footer";
 import Header from "./Header";
 
 import '../index.css';
-// import '../media-queries.css';
-// import '../header-footer-media-queries.css';
+import '../media-queries.css';
+import '../header-footer-media-queries.css';
 
 export default function PortfolioContainer() {
   const [currentPage, setCurrentPage] = useState("About");
@@ -39,7 +39,7 @@ export default function PortfolioContainer() {
       {/* // handlePageChange fxns as a way to change the current page state variable */}
       <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} />
       {renderPage()}
-      {/* <Footer /> */}
+      <Footer />
     </div>
   );
 }

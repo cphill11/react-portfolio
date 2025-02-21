@@ -1,7 +1,7 @@
 import React from "react";
 import '../index.css';
-// import '../media-queries.css';
-// import '../header-footer-media-queries.css';
+import '../media-queries.css';
+import '../header-footer-media-queries.css';
 function Footer() {
   return (
     <footer>
@@ -14,7 +14,7 @@ function Footer() {
       <br></br>
       <li>
         <a href="https://github.com/cphill11" className="gitHub">
-          Public GitHub Repositories
+          GitHub
         </a>
       </li>
       <br></br>
