@@ -45,7 +45,6 @@ function About(props) {
               Image has been elongated from original size. Original is posted
               below.
             </p>
-            <p>Please utilize Downloadable Resume PDF hyperlink for contact information.</p>
 
             <div className="SplitPane">
               {" "}
