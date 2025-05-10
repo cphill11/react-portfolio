@@ -23,7 +23,7 @@ function About(props) {
           />
           <div id="summary">
             <p>
-              WGU Software Engineer Student with 2+ years personal experience with development.  Expected June 2026 graduation with B.S. degree.  Certified as AWS Certified Cloud Practitioner.
+              WGU Software Engineer Student with personal experience with application development.  Expected June 2026 graduation with B.S. degree.  Certified as AWS Certified Cloud Practitioner.
             </p>
             <p>
               Previously completed two coding bootcamps: MERN Full Stack Web
