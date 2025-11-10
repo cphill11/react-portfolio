@@ -25,11 +25,6 @@ main {
   max-width: 100%;
 }
 
-/* html,
-body {
-  min-height: 100vh;
-} */
-
 body {
   margin: 0;
   /* padding: 0; */
@@ -236,7 +231,8 @@ footer section {
 }
 
 img {
-  justify-content: center;
+  /* justify-content: center; */
+  align-self: flex-start;
   padding: 10px;
   border: 2px solid;
   border-color: rgb(109, 111, 114);
@@ -274,9 +270,10 @@ img {
 }
 
 .SplitPane img {
-  height: 200px;
+  height: 240px;
   width: 375px;
   margin: 0.5rem 0.5rem 2.75rem 0.5rem;
+  align-self: flex-start;
 }
 
 .SplitPane-Left {
