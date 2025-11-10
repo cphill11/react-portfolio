@@ -1,5 +1,7 @@
 // main entry point for application
 import React from "react";
+// import { createRoot } from 'react-dom/client';
+
 
 // renders App component at root element of index.html
 import ReactDOM from "react-dom";

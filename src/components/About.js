@@ -23,21 +23,18 @@ function About(props) {
           />
           <div id="summary">
             <p>
-              WGU Software Engineer Student with personal experience with application development.  Expected June 2026 graduation with B.S. degree.  Certified as AWS Certified Cloud Practitioner.
+              WGU Software Engineer Student with personal experience working with application development.  
+             December 2026 expected graduation with B.S. degree.  Certified as AWS Certified Cloud Practitioner.
             </p>
             <p>
               Previously completed two coding bootcamps: MERN Full Stack Web
-              Development with Case Western University and Java with Cognizant,
-              through Southern Methodist University.
+              Development with Case Western University and Java with Cognizant.
             </p>
-            <p>
-              Achieved M.S. Healthcare Management at Johns Hopkins Carey School
-              of Business in December of 2023.
-            </p>
-            <p>
+             <p>
               Career changer. Transitioned from bedside Critical Care at end of
               2021 to Technology field with advent of first coding bootcamp.
             </p>
+
             <p>
               International traveler, with visits to both Scotland and New
               Zealand. The image at the top of the page is of the Mt. Paku

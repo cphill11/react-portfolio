@@ -7,7 +7,7 @@ function Footer() {
     <footer>
     <section>
       <li>
-        <a href="https://www.linkedin.com/in/cristephillips/" className="linkedIn">
+        <a href="https://www.linkedin.com/in/cristephillips/" className="LinkedIn">
           linkedIn
         </a>
       </li>

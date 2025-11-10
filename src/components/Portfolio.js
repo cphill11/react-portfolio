@@ -3,30 +3,46 @@ import Project from "./Project";
 import keepingTallyImg from "../assets/images/keepingTally.jpg";
 import familyPetImg from "../assets/images/familyPets.jpg";
 import randomPswdGenImg from "../assets/images/randomPswdGen.jpg";
-import greatReadsImg from "../assets/images/great-reads.jpg";
+import familyRecipes from "../assets/images/familyRecipes.jpg";
 import fetchImg from "../assets/images/fetch.jpg";
 import comicsImg from "../assets/images/comics.jpg";
 import hellkittyImg from "../assets/images/hellkitty.jpg";
-import '../index.css';
+import worldMapInteractive from "../assets/images/worldInteractiveMap.jpg";
+import northCarolina from "../assets/images/northCarolina.jpg"
+import "../index.css";
 // import '../media-queries.css';
 // import '../header-footer-media-queries.css';
-
 
 function Portfolio(props) {
   return (
     <section class="portfolioSection">
-      <h1 id="portfolio">Portfolio Display: Images are hyperlinks to repo README.md files
+      <h1 id="portfolio">
+        Portfolio Display: Images are hyperlinks to repo README.md files
       </h1>
 
-        <div className="SplitPane">
+      <div className="SplitPane">
         <div className="SplitPane-Left-Projects">
           {" "}
           {props.left}
           <Project
-            title="Great Reads"
-            subtitle="Social App"
-            image={greatReadsImg}
-            href="https://github.com/cphill11/great-reads/blob/main/README.md"
+            title="Hide and Seek Family Recipes"
+            subtitle="Cooking Reference Site"
+            image={familyRecipes}
+            href="https://github.com/cphill11/family-recipes/blob/main/README.md"
+          />{" "}
+          {props.left}
+          <Project
+            title="World Interactive Map"
+            subtitle="Geographical Data Tool"
+            image={worldMapInteractive}
+            href="https://github.com/cphill11/world-map-interactive/blob/main/README.md"
+          />{" "}
+          {props.left}
+          <Project
+            title="North Carolina Cities"
+            subtitle="City Comparison Site"
+            image={northCarolina}
+            href="https://github.com/cphill11/north-carolina-city-comparisons/blob/main/readme.MD"
           />{" "}
           {props.left}
           <Project
@@ -76,7 +92,6 @@ function Portfolio(props) {
           />
         </div>
       </div>
-  
     </section>
   );
 }
