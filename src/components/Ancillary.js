@@ -18,7 +18,7 @@ function Ancillary(props) {
              <li></li>
              <li></li>
               <li>MS Teams, Zoom, Slack</li>
-              <li>Miro MindMaps </li>
+              <li>Miro MindMaps, Lucidchart, Draw.io </li>
               <li>Business Leadership and Human Values</li>
               <li>Statistical Analysis</li>
               <li>Managing Complex Projects</li>
@@ -36,7 +36,7 @@ function Ancillary(props) {
             <li></li>
             <li>Java Certification</li>
             <li>AWS Cloud Practitioner Certification</li>
-            <li>NSLS Honor Society for both JHU & WGU</li>
+            <li>NSLS Honor Society</li>
             <li>Women in Tech, Community Member</li>
           </ul>
         </div>

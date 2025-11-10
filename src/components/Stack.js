@@ -13,12 +13,15 @@ function Stack(props) {
             {" "}
             {props.left}
             <ul>
-              <li>IDE: IntelliJ, Visual Studio Code, R Studio</li>
-              <li>MERN Stack: MongoDB, React.js, Express.JS, Node.js</li>
-              <li>Object-Oriented Programming: Java, JavaScript</li>
-              <li>HTML5 / CSS / Flexbox </li>
+              <li>IDE: IntelliJ, Visual Studio Code, R Studio, PyCharm</li>
+              <li>MERN Stack: MongoDB, React, Express, Node</li>
+              <li>Java, JavaScript, Python</li>
+              <li>SQL, SQL Workbench, MySQL</li>
+              <li>Angular</li>
+              <li>HTML</li>
+              <li>CSS, Flexbox </li>
               <li>REST APIs</li>
-              <li>Insomnia</li>
+              
               </ul>
           </div>
 
@@ -28,11 +31,11 @@ function Stack(props) {
             <ul>
               <li>AWS Cloud Practitioner</li>
               <li>CI/CD (Git)</li>
-              <li>Docker Containers</li>
+              <li>Insomnia</li>
               <li>Heroku Deployment</li>
-              <li>SQL / SQL Workbench / MySQL</li>
-              <li>Spring Framework / Maven Projects</li>
-              <li>Kanbans: Jira and GitHub</li>
+              <li>REST APIs</li>
+              <li>Spring Framework, Maven Projects</li>
+              
             </ul>
           </div>
         </div>
