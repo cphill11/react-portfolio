@@ -33,9 +33,10 @@ function Ancillary(props) {
           {props.right}
           <ul> Certifications, Awards, & Communities
             <li></li>
-            <li></li>
-            <li>Java Certification</li>
+            <li>Front-end Web Developer</li>
             <li>AWS Cloud Practitioner Certification</li>
+            <li>Java Certification</li>
+            <li>MERN Full Stack</li>
             <li>NSLS Honor Society</li>
             <li>Women in Tech, Community Member</li>
           </ul>
